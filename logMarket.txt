@@ -1,0 +1,3596 @@
+Num GPU's: 3
+Allocated GPU's for model: [1, 2]
+Successfully loaded imagenet pretrained weights from "/root/.cache/torch/checkpoints/osnet_x1_0_imagenet.pth"
+Successfully loaded imagenet pretrained weights from "/root/.cache/torch/checkpoints/osnet_x1_0_imagenet.pth"
+Training Size: (12936, 3)
+Gallery Size: (15913, 3)
+Query Size: (3368, 3)
+Validating ResNet50 on Market ...
+Features extracted in 7.92 seconds
+Features extracted in 15.77 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 1.95%
+CMC curve
+Rank-1  : 5.64%
+Rank-5  : 13.54%
+Rank-10 : 18.97%
+Rank-20 : 24.61%
+Validating OSNet on Market ...
+Features extracted in 4.27 seconds
+Features extracted in 11.90 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 2.27%
+CMC curve
+Rank-1  : 8.52%
+Rank-5  : 17.79%
+Rank-10 : 22.57%
+Rank-20 : 29.25%
+Validating DenseNet121 on Market ...
+Features extracted in 4.53 seconds
+Features extracted in 12.70 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 2.84%
+CMC curve
+Rank-1  : 9.23%
+Rank-5  : 20.34%
+Rank-10 : 26.57%
+Rank-20 : 33.94%
+Computing CMC and mAP ...
+** Results **
+mAP: 3.93%
+Ranks:
+Rank-1  : 13.21%
+Rank-5  : 25.21%
+Rank-10 : 31.32%
+###============ Iteration number 1/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 12.16 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.11 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.43 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.94410490989685
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.080682277679443
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.76675295829773
+Reliability: 0.034
+[32mMean Purity: 0.23735[0m
+[34mThere are 30 clusters with 1 cameras[0m
+[34mThere are 14 clusters with 2 cameras[0m
+[34mThere are 1 clusters with 3 cameras[0m
+[34mThere are 1 clusters with 4 cameras[0m
+[34mThere are 2 clusters with 5 cameras[0m
+Number of classes: 48
+[36mLearning Rate: 0.000035[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 2.48 seconds
+[36mBatches computed: 3, Tau value: 0.040[0m
+[33mMean Loss: 4.9306699, Mean Center Loss: 2.7464424, Mean Hard Triplet Loss: 4.3684548[0m
+[5m[34mPercetage of correct triplets: 0.89[0m
+Features extracted in 3.15 seconds
+[36mBatches computed: 6, Tau value: 0.040[0m
+[33mMean Loss: 4.1444772, Mean Center Loss: 2.2072109, Mean Hard Triplet Loss: 3.8745325[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.58 seconds
+[36mBatches computed: 9, Tau value: 0.040[0m
+[33mMean Loss: 3.4300374, Mean Center Loss: 1.7210361, Mean Hard Triplet Loss: 3.4180028[0m
+[5m[34mPercetage of correct triplets: 0.88[0m
+Features extracted in 2.66 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 3.1300272, Mean Center Loss: 1.5200608, Mean Hard Triplet Loss: 3.2199329[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.58 seconds
+[36mBatches computed: 15, Tau value: 0.040[0m
+[33mMean Loss: 2.6769000, Mean Center Loss: 1.2493783, Mean Hard Triplet Loss: 2.8550435[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.64 seconds
+[36mBatches computed: 18, Tau value: 0.040[0m
+[33mMean Loss: 2.2383088, Mean Center Loss: 0.9812480, Mean Hard Triplet Loss: 2.5141216[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.65 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 1.9482237, Mean Center Loss: 0.8616474, Mean Hard Triplet Loss: 2.1731525[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+[32mTraining OSNet ...[0m
+Features extracted in 2.55 seconds
+[36mBatches computed: 3, Tau value: 0.040[0m
+[33mMean Loss: 5.7635481, Mean Center Loss: 2.8072123, Mean Hard Triplet Loss: 5.9126716[0m
+[5m[34mPercetage of correct triplets: 0.89[0m
+Features extracted in 2.63 seconds
+[36mBatches computed: 6, Tau value: 0.040[0m
+[33mMean Loss: 5.5452561, Mean Center Loss: 2.7095913, Mean Hard Triplet Loss: 5.6713297[0m
+[5m[34mPercetage of correct triplets: 0.89[0m
+Features extracted in 2.55 seconds
+[36mBatches computed: 9, Tau value: 0.040[0m
+[33mMean Loss: 5.0839450, Mean Center Loss: 2.5089579, Mean Hard Triplet Loss: 5.1499743[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.56 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 4.8730413, Mean Center Loss: 2.4826589, Mean Hard Triplet Loss: 4.7807651[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.58 seconds
+[36mBatches computed: 15, Tau value: 0.040[0m
+[33mMean Loss: 4.9679796, Mean Center Loss: 2.4673402, Mean Hard Triplet Loss: 5.0012790[0m
+[5m[34mPercetage of correct triplets: 0.89[0m
+Features extracted in 2.46 seconds
+[36mBatches computed: 18, Tau value: 0.040[0m
+[33mMean Loss: 4.7282968, Mean Center Loss: 2.2160478, Mean Hard Triplet Loss: 5.0244980[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.59 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 4.7245498, Mean Center Loss: 2.3954560, Mean Hard Triplet Loss: 4.6581875[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 2.57 seconds
+[36mBatches computed: 3, Tau value: 0.040[0m
+[33mMean Loss: 4.5368535, Mean Center Loss: 2.5696340, Mean Hard Triplet Loss: 3.9344391[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.65 seconds
+[36mBatches computed: 6, Tau value: 0.040[0m
+[33mMean Loss: 4.1021434, Mean Center Loss: 2.2256572, Mean Hard Triplet Loss: 3.7529724[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.57 seconds
+[36mBatches computed: 9, Tau value: 0.040[0m
+[33mMean Loss: 3.5057932, Mean Center Loss: 1.7960099, Mean Hard Triplet Loss: 3.4195665[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+Features extracted in 2.59 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 3.2082710, Mean Center Loss: 1.6278973, Mean Hard Triplet Loss: 3.1607474[0m
+[5m[34mPercetage of correct triplets: 0.85[0m
+Features extracted in 2.63 seconds
+[36mBatches computed: 15, Tau value: 0.040[0m
+[33mMean Loss: 2.7216581, Mean Center Loss: 1.3896398, Mean Hard Triplet Loss: 2.6640367[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.63 seconds
+[36mBatches computed: 18, Tau value: 0.040[0m
+[33mMean Loss: 2.5746158, Mean Center Loss: 1.2526000, Mean Hard Triplet Loss: 2.6440314[0m
+[5m[34mPercetage of correct triplets: 0.88[0m
+Features extracted in 2.60 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 2.4929957, Mean Center Loss: 1.2417828, Mean Hard Triplet Loss: 2.5024260[0m
+[5m[34mPercetage of correct triplets: 0.87[0m
+###============ Iteration number 2/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.01 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.53 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.26 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 20.729639530181885
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.077191591262817
+Computing jaccard distance...
+Jaccard distance computing time cost: 20.002912521362305
+Reliability: 0.045
+[32mMean Purity: 0.26212[0m
+[34mThere are 37 clusters with 1 cameras[0m
+[34mThere are 17 clusters with 2 cameras[0m
+[34mThere are 6 clusters with 3 cameras[0m
+[34mThere are 5 clusters with 4 cameras[0m
+[34mThere are 1 clusters with 5 cameras[0m
+Number of classes: 66
+[36mLearning Rate: 0.000070[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 3.01 seconds
+[36mBatches computed: 4, Tau value: 0.040[0m
+[33mMean Loss: 2.2346431, Mean Center Loss: 1.0015482, Mean Hard Triplet Loss: 2.4661898[0m
+[5m[34mPercetage of correct triplets: 0.83[0m
+Features extracted in 2.89 seconds
+[36mBatches computed: 8, Tau value: 0.040[0m
+[33mMean Loss: 1.7652395, Mean Center Loss: 0.7626381, Mean Hard Triplet Loss: 2.0052027[0m
+[5m[34mPercetage of correct triplets: 0.85[0m
+Features extracted in 2.90 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 1.5959193, Mean Center Loss: 0.6572729, Mean Hard Triplet Loss: 1.8772928[0m
+[5m[34mPercetage of correct triplets: 0.83[0m
+Features extracted in 2.85 seconds
+[36mBatches computed: 16, Tau value: 0.040[0m
+[33mMean Loss: 1.5530222, Mean Center Loss: 0.6611494, Mean Hard Triplet Loss: 1.7837456[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.84 seconds
+[36mBatches computed: 20, Tau value: 0.040[0m
+[33mMean Loss: 1.0991023, Mean Center Loss: 0.4621715, Mean Hard Triplet Loss: 1.2738617[0m
+[5m[34mPercetage of correct triplets: 0.84[0m
+Features extracted in 2.84 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 0.9805673, Mean Center Loss: 0.3401053, Mean Hard Triplet Loss: 1.2809240[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+Features extracted in 2.82 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.8917203, Mean Center Loss: 0.3670212, Mean Hard Triplet Loss: 1.0493983[0m
+[5m[34mPercetage of correct triplets: 0.84[0m
+[32mTraining OSNet ...[0m
+Features extracted in 2.73 seconds
+[36mBatches computed: 4, Tau value: 0.040[0m
+[33mMean Loss: 5.0757166, Mean Center Loss: 2.6264414, Mean Hard Triplet Loss: 4.8985502[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.70 seconds
+[36mBatches computed: 8, Tau value: 0.040[0m
+[33mMean Loss: 5.1156323, Mean Center Loss: 2.7684562, Mean Hard Triplet Loss: 4.6943519[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.75 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 4.5627251, Mean Center Loss: 2.3993655, Mean Hard Triplet Loss: 4.3267193[0m
+[5m[34mPercetage of correct triplets: 0.83[0m
+Features extracted in 2.77 seconds
+[36mBatches computed: 16, Tau value: 0.040[0m
+[33mMean Loss: 4.4341172, Mean Center Loss: 2.4467117, Mean Hard Triplet Loss: 3.9748111[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.73 seconds
+[36mBatches computed: 20, Tau value: 0.040[0m
+[33mMean Loss: 4.3609923, Mean Center Loss: 2.3429523, Mean Hard Triplet Loss: 4.0360801[0m
+[5m[34mPercetage of correct triplets: 0.83[0m
+Features extracted in 2.81 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 4.0258244, Mean Center Loss: 2.1327986, Mean Hard Triplet Loss: 3.7860515[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.74 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 3.7046876, Mean Center Loss: 1.9570739, Mean Hard Triplet Loss: 3.4952275[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 2.89 seconds
+[36mBatches computed: 4, Tau value: 0.040[0m
+[33mMean Loss: 2.6531854, Mean Center Loss: 1.3798062, Mean Hard Triplet Loss: 2.5467584[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.90 seconds
+[36mBatches computed: 8, Tau value: 0.040[0m
+[33mMean Loss: 2.3955486, Mean Center Loss: 1.2158147, Mean Hard Triplet Loss: 2.3594679[0m
+[5m[34mPercetage of correct triplets: 0.85[0m
+Features extracted in 2.81 seconds
+[36mBatches computed: 12, Tau value: 0.040[0m
+[33mMean Loss: 2.1214440, Mean Center Loss: 1.0469184, Mean Hard Triplet Loss: 2.1490512[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+Features extracted in 2.82 seconds
+[36mBatches computed: 16, Tau value: 0.040[0m
+[33mMean Loss: 1.8590875, Mean Center Loss: 0.8636143, Mean Hard Triplet Loss: 1.9909465[0m
+[5m[34mPercetage of correct triplets: 0.86[0m
+Features extracted in 2.81 seconds
+[36mBatches computed: 20, Tau value: 0.040[0m
+[33mMean Loss: 1.7806747, Mean Center Loss: 0.7726491, Mean Hard Triplet Loss: 2.0160511[0m
+[5m[34mPercetage of correct triplets: 0.84[0m
+Features extracted in 2.83 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 1.5786726, Mean Center Loss: 0.7142580, Mean Hard Triplet Loss: 1.7288291[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 2.92 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 1.4763636, Mean Center Loss: 0.6781723, Mean Hard Triplet Loss: 1.5963827[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+###============ Iteration number 3/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 12.96 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.61 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.33 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.642739295959473
+Computing jaccard distance...
+Jaccard distance computing time cost: 16.369728088378906
+Computing jaccard distance...
+Jaccard distance computing time cost: 20.493027687072754
+Reliability: 0.106
+[32mMean Purity: 0.30483[0m
+[34mThere are 64 clusters with 1 cameras[0m
+[34mThere are 27 clusters with 2 cameras[0m
+[34mThere are 18 clusters with 3 cameras[0m
+[34mThere are 6 clusters with 4 cameras[0m
+[34mThere are 4 clusters with 5 cameras[0m
+[34mThere are 5 clusters with 6 cameras[0m
+Number of classes: 124
+[36mLearning Rate: 0.000105[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 3.54 seconds
+[36mBatches computed: 7, Tau value: 0.040[0m
+[33mMean Loss: 2.3345549, Mean Center Loss: 1.2145614, Mean Hard Triplet Loss: 2.2399870[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 3.57 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 1.9065770, Mean Center Loss: 1.0129448, Mean Hard Triplet Loss: 1.7872643[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+Features extracted in 3.63 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 1.5492112, Mean Center Loss: 0.7606913, Mean Hard Triplet Loss: 1.5770399[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 3.45 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 1.4705045, Mean Center Loss: 0.6973488, Mean Hard Triplet Loss: 1.5463114[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 3.55 seconds
+[36mBatches computed: 35, Tau value: 0.040[0m
+[33mMean Loss: 1.1979013, Mean Center Loss: 0.5639481, Mean Hard Triplet Loss: 1.2679063[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 3.62 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 0.9377425, Mean Center Loss: 0.4404794, Mean Hard Triplet Loss: 0.9945262[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+Features extracted in 3.58 seconds
+[36mBatches computed: 49, Tau value: 0.040[0m
+[33mMean Loss: 0.8656854, Mean Center Loss: 0.4310435, Mean Hard Triplet Loss: 0.8692839[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+[32mTraining OSNet ...[0m
+Features extracted in 3.22 seconds
+[36mBatches computed: 7, Tau value: 0.040[0m
+[33mMean Loss: 4.8025352, Mean Center Loss: 2.8263144, Mean Hard Triplet Loss: 3.9524417[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+Features extracted in 3.16 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 4.4943609, Mean Center Loss: 2.6929051, Mean Hard Triplet Loss: 3.6029114[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+Features extracted in 3.28 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 4.4016603, Mean Center Loss: 2.5791909, Mean Hard Triplet Loss: 3.6449390[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 3.43 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 4.0557324, Mean Center Loss: 2.3957186, Mean Hard Triplet Loss: 3.3200275[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+Features extracted in 3.25 seconds
+[36mBatches computed: 35, Tau value: 0.040[0m
+[33mMean Loss: 3.6518446, Mean Center Loss: 2.1111678, Mean Hard Triplet Loss: 3.0813537[0m
+[5m[34mPercetage of correct triplets: 0.82[0m
+Features extracted in 3.22 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 3.5376516, Mean Center Loss: 1.9777211, Mean Hard Triplet Loss: 3.1198611[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+Features extracted in 3.40 seconds
+[36mBatches computed: 49, Tau value: 0.040[0m
+[33mMean Loss: 3.4151955, Mean Center Loss: 1.9306112, Mean Hard Triplet Loss: 2.9691687[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 3.33 seconds
+[36mBatches computed: 7, Tau value: 0.040[0m
+[33mMean Loss: 2.6830583, Mean Center Loss: 1.4893465, Mean Hard Triplet Loss: 2.3874235[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 3.39 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 2.3084948, Mean Center Loss: 1.2627623, Mean Hard Triplet Loss: 2.0914649[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+Features extracted in 3.38 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 2.1674869, Mean Center Loss: 1.1895967, Mean Hard Triplet Loss: 1.9557805[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 3.35 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 1.9109839, Mean Center Loss: 0.9951181, Mean Hard Triplet Loss: 1.8317316[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 3.31 seconds
+[36mBatches computed: 35, Tau value: 0.040[0m
+[33mMean Loss: 1.6894741, Mean Center Loss: 0.8824355, Mean Hard Triplet Loss: 1.6140771[0m
+[5m[34mPercetage of correct triplets: 0.81[0m
+Features extracted in 3.66 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 1.4301224, Mean Center Loss: 0.6947109, Mean Hard Triplet Loss: 1.4708230[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 3.53 seconds
+[36mBatches computed: 49, Tau value: 0.040[0m
+[33mMean Loss: 1.3433746, Mean Center Loss: 0.6672500, Mean Hard Triplet Loss: 1.3522491[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 4/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 12.94 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.44 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.52 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.90652632713318
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.431623458862305
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.140040636062622
+Reliability: 0.253
+[32mMean Purity: 0.30292[0m
+[34mThere are 97 clusters with 1 cameras[0m
+[34mThere are 55 clusters with 2 cameras[0m
+[34mThere are 33 clusters with 3 cameras[0m
+[34mThere are 18 clusters with 4 cameras[0m
+[34mThere are 12 clusters with 5 cameras[0m
+[34mThere are 11 clusters with 6 cameras[0m
+Number of classes: 226
+[36mLearning Rate: 0.000140[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 5.30 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 2.3839144, Mean Center Loss: 1.3923600, Mean Hard Triplet Loss: 1.9831089[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 5.31 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 1.9484716, Mean Center Loss: 1.0944177, Mean Hard Triplet Loss: 1.7081079[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 5.11 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 1.5343777, Mean Center Loss: 0.9172872, Mean Hard Triplet Loss: 1.2341809[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 5.32 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 1.3932326, Mean Center Loss: 0.8108886, Mean Hard Triplet Loss: 1.1646880[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 5.69 seconds
+[36mBatches computed: 70, Tau value: 0.040[0m
+[33mMean Loss: 1.2001121, Mean Center Loss: 0.6747437, Mean Hard Triplet Loss: 1.0507369[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 5.40 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 1.0474719, Mean Center Loss: 0.6072368, Mean Hard Triplet Loss: 0.8804702[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 5.32 seconds
+[36mBatches computed: 98, Tau value: 0.040[0m
+[33mMean Loss: 1.0156970, Mean Center Loss: 0.5530525, Mean Hard Triplet Loss: 0.9252891[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+[32mTraining OSNet ...[0m
+Features extracted in 4.54 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 4.3472047, Mean Center Loss: 2.7162195, Mean Hard Triplet Loss: 3.2619704[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 4.93 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 4.1149403, Mean Center Loss: 2.5212891, Mean Hard Triplet Loss: 3.1873025[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 4.72 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 3.7875622, Mean Center Loss: 2.3680759, Mean Hard Triplet Loss: 2.8389727[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 4.64 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 3.6491146, Mean Center Loss: 2.2574631, Mean Hard Triplet Loss: 2.7833029[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 4.37 seconds
+[36mBatches computed: 70, Tau value: 0.040[0m
+[33mMean Loss: 3.3158977, Mean Center Loss: 2.0168005, Mean Hard Triplet Loss: 2.5981943[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 4.64 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 3.0359112, Mean Center Loss: 1.8105836, Mean Hard Triplet Loss: 2.4506552[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 4.61 seconds
+[36mBatches computed: 98, Tau value: 0.040[0m
+[33mMean Loss: 2.8288490, Mean Center Loss: 1.6945904, Mean Hard Triplet Loss: 2.2685171[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 4.94 seconds
+[36mBatches computed: 14, Tau value: 0.040[0m
+[33mMean Loss: 2.6621499, Mean Center Loss: 1.5852037, Mean Hard Triplet Loss: 2.1538924[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 5.05 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 2.3454418, Mean Center Loss: 1.4158455, Mean Hard Triplet Loss: 1.8591928[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 4.72 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 1.9986490, Mean Center Loss: 1.1434849, Mean Hard Triplet Loss: 1.7103282[0m
+[5m[34mPercetage of correct triplets: 0.79[0m
+Features extracted in 4.89 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 1.7584531, Mean Center Loss: 1.0065152, Mean Hard Triplet Loss: 1.5038758[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 5.08 seconds
+[36mBatches computed: 70, Tau value: 0.040[0m
+[33mMean Loss: 1.4666575, Mean Center Loss: 0.8459874, Mean Hard Triplet Loss: 1.2413403[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 4.90 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 1.4273179, Mean Center Loss: 0.8509081, Mean Hard Triplet Loss: 1.1528195[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 4.76 seconds
+[36mBatches computed: 98, Tau value: 0.040[0m
+[33mMean Loss: 1.2915174, Mean Center Loss: 0.7670292, Mean Hard Triplet Loss: 1.0489764[0m
+[5m[34mPercetage of correct triplets: 0.80[0m
+###============ Iteration number 5/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 12.91 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.88 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.34 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.607993841171265
+Computing jaccard distance...
+Jaccard distance computing time cost: 16.23056125640869
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.710578680038452
+Reliability: 0.510
+[32mMean Purity: 0.36185[0m
+[34mThere are 85 clusters with 1 cameras[0m
+[34mThere are 96 clusters with 2 cameras[0m
+[34mThere are 54 clusters with 3 cameras[0m
+[34mThere are 47 clusters with 4 cameras[0m
+[34mThere are 32 clusters with 5 cameras[0m
+[34mThere are 28 clusters with 6 cameras[0m
+Number of classes: 342
+[36mLearning Rate: 0.000175[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 8.17 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 2.7785760, Mean Center Loss: 1.7333681, Mean Hard Triplet Loss: 2.0904159[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 8.03 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 2.2737329, Mean Center Loss: 1.4066188, Mean Hard Triplet Loss: 1.7342283[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 8.19 seconds
+[36mBatches computed: 63, Tau value: 0.040[0m
+[33mMean Loss: 1.9731317, Mean Center Loss: 1.2236547, Mean Hard Triplet Loss: 1.4989540[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 8.14 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 1.7195856, Mean Center Loss: 1.0371522, Mean Hard Triplet Loss: 1.3648668[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.86 seconds
+[36mBatches computed: 105, Tau value: 0.040[0m
+[33mMean Loss: 1.5628878, Mean Center Loss: 0.9657424, Mean Hard Triplet Loss: 1.1942909[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.90 seconds
+[36mBatches computed: 126, Tau value: 0.040[0m
+[33mMean Loss: 1.4058041, Mean Center Loss: 0.8748973, Mean Hard Triplet Loss: 1.0618136[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.76 seconds
+[36mBatches computed: 147, Tau value: 0.040[0m
+[33mMean Loss: 1.2117052, Mean Center Loss: 0.7455176, Mean Hard Triplet Loss: 0.9323751[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 6.60 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 4.3371735, Mean Center Loss: 2.7973451, Mean Hard Triplet Loss: 3.0796568[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 6.93 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 3.9811644, Mean Center Loss: 2.5594360, Mean Hard Triplet Loss: 2.8434566[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 6.57 seconds
+[36mBatches computed: 63, Tau value: 0.040[0m
+[33mMean Loss: 3.7696414, Mean Center Loss: 2.3747464, Mean Hard Triplet Loss: 2.7897900[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 6.50 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 3.4072157, Mean Center Loss: 2.1507231, Mean Hard Triplet Loss: 2.5129852[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 6.74 seconds
+[36mBatches computed: 105, Tau value: 0.040[0m
+[33mMean Loss: 3.1504188, Mean Center Loss: 2.0110257, Mean Hard Triplet Loss: 2.2787862[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 6.72 seconds
+[36mBatches computed: 126, Tau value: 0.040[0m
+[33mMean Loss: 3.0395381, Mean Center Loss: 1.8994861, Mean Hard Triplet Loss: 2.2801041[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 6.68 seconds
+[36mBatches computed: 147, Tau value: 0.040[0m
+[33mMean Loss: 2.8001867, Mean Center Loss: 1.7352527, Mean Hard Triplet Loss: 2.1298680[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 7.14 seconds
+[36mBatches computed: 21, Tau value: 0.040[0m
+[33mMean Loss: 2.9944084, Mean Center Loss: 1.9188486, Mean Hard Triplet Loss: 2.1511196[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 7.40 seconds
+[36mBatches computed: 42, Tau value: 0.040[0m
+[33mMean Loss: 2.5326021, Mean Center Loss: 1.5805030, Mean Hard Triplet Loss: 1.9041981[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 7.02 seconds
+[36mBatches computed: 63, Tau value: 0.040[0m
+[33mMean Loss: 2.1613819, Mean Center Loss: 1.3246158, Mean Hard Triplet Loss: 1.6735321[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.37 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 2.1006364, Mean Center Loss: 1.2705507, Mean Hard Triplet Loss: 1.6601714[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 7.03 seconds
+[36mBatches computed: 105, Tau value: 0.040[0m
+[33mMean Loss: 1.7934489, Mean Center Loss: 1.1019262, Mean Hard Triplet Loss: 1.3830455[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.40 seconds
+[36mBatches computed: 126, Tau value: 0.040[0m
+[33mMean Loss: 1.7310283, Mean Center Loss: 1.0635118, Mean Hard Triplet Loss: 1.3350330[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 7.17 seconds
+[36mBatches computed: 147, Tau value: 0.040[0m
+[33mMean Loss: 1.5450112, Mean Center Loss: 0.9525322, Mean Hard Triplet Loss: 1.1849580[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+###============ Iteration number 6/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.03 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.44 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.43 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.882997512817383
+Computing jaccard distance...
+Jaccard distance computing time cost: 14.40923261642456
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.43414068222046
+Reliability: 0.715
+[32mMean Purity: 0.40607[0m
+[34mThere are 59 clusters with 1 cameras[0m
+[34mThere are 62 clusters with 2 cameras[0m
+[34mThere are 67 clusters with 3 cameras[0m
+[34mThere are 61 clusters with 4 cameras[0m
+[34mThere are 77 clusters with 5 cameras[0m
+[34mThere are 46 clusters with 6 cameras[0m
+Number of classes: 372
+[36mLearning Rate: 0.000210[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 10.00 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 2.5229363, Mean Center Loss: 1.5171608, Mean Hard Triplet Loss: 2.0115510[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.32 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 2.0702538, Mean Center Loss: 1.2762675, Mean Hard Triplet Loss: 1.5879727[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.10 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 1.9539962, Mean Center Loss: 1.1871253, Mean Hard Triplet Loss: 1.5337417[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.00 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 1.7419359, Mean Center Loss: 1.0662670, Mean Hard Triplet Loss: 1.3513378[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.98 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 1.6164881, Mean Center Loss: 0.9721661, Mean Hard Triplet Loss: 1.2886440[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.09 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 1.4721015, Mean Center Loss: 0.8951301, Mean Hard Triplet Loss: 1.1539428[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.91 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 1.5039922, Mean Center Loss: 0.8940663, Mean Hard Triplet Loss: 1.2198517[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 8.22 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 3.7753352, Mean Center Loss: 2.4127779, Mean Hard Triplet Loss: 2.7251147[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 8.28 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 3.4149147, Mean Center Loss: 2.1690606, Mean Hard Triplet Loss: 2.4917082[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 8.04 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 3.2589300, Mean Center Loss: 2.0349345, Mean Hard Triplet Loss: 2.4479911[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 8.24 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 3.0015693, Mean Center Loss: 1.8888702, Mean Hard Triplet Loss: 2.2253983[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 8.17 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 2.8758492, Mean Center Loss: 1.8070274, Mean Hard Triplet Loss: 2.1376436[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 7.88 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 2.8498659, Mean Center Loss: 1.7959322, Mean Hard Triplet Loss: 2.1078674[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 7.99 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 2.6209049, Mean Center Loss: 1.6468123, Mean Hard Triplet Loss: 1.9481852[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 9.10 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 2.6321381, Mean Center Loss: 1.6165069, Mean Hard Triplet Loss: 2.0312624[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.13 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 2.4258839, Mean Center Loss: 1.5146117, Mean Hard Triplet Loss: 1.8225443[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.03 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 2.0818657, Mean Center Loss: 1.3196474, Mean Hard Triplet Loss: 1.5244366[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.26 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 1.9719325, Mean Center Loss: 1.2294489, Mean Hard Triplet Loss: 1.4849673[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.04 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 1.8133445, Mean Center Loss: 1.1301657, Mean Hard Triplet Loss: 1.3663577[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.12 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 1.7194217, Mean Center Loss: 1.0677948, Mean Hard Triplet Loss: 1.3032538[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.02 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 1.5881461, Mean Center Loss: 1.0008571, Mean Hard Triplet Loss: 1.1745778[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 7/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 12.78 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.57 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.51 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.322299480438232
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.617048263549805
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.844110012054443
+Reliability: 0.812
+[32mMean Purity: 0.42361[0m
+[34mThere are 30 clusters with 1 cameras[0m
+[34mThere are 39 clusters with 2 cameras[0m
+[34mThere are 50 clusters with 3 cameras[0m
+[34mThere are 86 clusters with 4 cameras[0m
+[34mThere are 96 clusters with 5 cameras[0m
+[34mThere are 73 clusters with 6 cameras[0m
+Number of classes: 374
+[36mLearning Rate: 0.000245[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 10.93 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 2.2989641, Mean Center Loss: 1.3982500, Mean Hard Triplet Loss: 1.8014283[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.05 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 2.0247392, Mean Center Loss: 1.2450363, Mean Hard Triplet Loss: 1.5594060[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.19 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 1.7506514, Mean Center Loss: 1.0664157, Mean Hard Triplet Loss: 1.3684714[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.09 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 1.6565767, Mean Center Loss: 1.0546745, Mean Hard Triplet Loss: 1.2038044[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.96 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 1.4297805, Mean Center Loss: 0.8756754, Mean Hard Triplet Loss: 1.1082102[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.18 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 1.4118300, Mean Center Loss: 0.8722526, Mean Hard Triplet Loss: 1.0791549[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.14 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 1.4195463, Mean Center Loss: 0.9089824, Mean Hard Triplet Loss: 1.0211278[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 8.89 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 3.1174384, Mean Center Loss: 1.9150271, Mean Hard Triplet Loss: 2.4048224[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 8.68 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 2.8660600, Mean Center Loss: 1.7839556, Mean Hard Triplet Loss: 2.1642087[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.18 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 2.8382077, Mean Center Loss: 1.7641441, Mean Hard Triplet Loss: 2.1481271[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.05 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 2.6128690, Mean Center Loss: 1.6381605, Mean Hard Triplet Loss: 1.9494169[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 8.89 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 2.4057928, Mean Center Loss: 1.4625711, Mean Hard Triplet Loss: 1.8864433[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 8.94 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 2.4373618, Mean Center Loss: 1.5320895, Mean Hard Triplet Loss: 1.8105446[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 9.06 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 2.3551023, Mean Center Loss: 1.4584289, Mean Hard Triplet Loss: 1.7933468[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 9.57 seconds
+[36mBatches computed: 23, Tau value: 0.040[0m
+[33mMean Loss: 2.2431488, Mean Center Loss: 1.4040788, Mean Hard Triplet Loss: 1.6781399[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.02 seconds
+[36mBatches computed: 46, Tau value: 0.040[0m
+[33mMean Loss: 2.0313664, Mean Center Loss: 1.2683267, Mean Hard Triplet Loss: 1.5260794[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.66 seconds
+[36mBatches computed: 69, Tau value: 0.040[0m
+[33mMean Loss: 1.9200139, Mean Center Loss: 1.1942300, Mean Hard Triplet Loss: 1.4515678[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.35 seconds
+[36mBatches computed: 92, Tau value: 0.040[0m
+[33mMean Loss: 1.8506376, Mean Center Loss: 1.1807364, Mean Hard Triplet Loss: 1.3398024[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.00 seconds
+[36mBatches computed: 115, Tau value: 0.040[0m
+[33mMean Loss: 1.6996422, Mean Center Loss: 1.0678281, Mean Hard Triplet Loss: 1.2636282[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.03 seconds
+[36mBatches computed: 138, Tau value: 0.040[0m
+[33mMean Loss: 1.6787672, Mean Center Loss: 1.0192817, Mean Hard Triplet Loss: 1.3189710[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.53 seconds
+[36mBatches computed: 161, Tau value: 0.040[0m
+[33mMean Loss: 1.4596923, Mean Center Loss: 0.9065800, Mean Hard Triplet Loss: 1.1062245[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 8/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.29 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.43 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.08 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.07751727104187
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.808716297149658
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.969409942626953
+Reliability: 0.862
+[32mMean Purity: 0.39594[0m
+[34mThere are 16 clusters with 1 cameras[0m
+[34mThere are 25 clusters with 2 cameras[0m
+[34mThere are 55 clusters with 3 cameras[0m
+[34mThere are 87 clusters with 4 cameras[0m
+[34mThere are 131 clusters with 5 cameras[0m
+[34mThere are 84 clusters with 6 cameras[0m
+Number of classes: 398
+[36mLearning Rate: 0.000280[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.34 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 1.7240204, Mean Center Loss: 1.0543667, Mean Hard Triplet Loss: 1.3393073[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.04 seconds
+[36mBatches computed: 48, Tau value: 0.040[0m
+[33mMean Loss: 1.5195788, Mean Center Loss: 0.9278231, Mean Hard Triplet Loss: 1.1835114[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.72 seconds
+[36mBatches computed: 72, Tau value: 0.040[0m
+[33mMean Loss: 1.3782265, Mean Center Loss: 0.8411974, Mean Hard Triplet Loss: 1.0740581[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.74 seconds
+[36mBatches computed: 96, Tau value: 0.040[0m
+[33mMean Loss: 1.3331018, Mean Center Loss: 0.8373214, Mean Hard Triplet Loss: 0.9915608[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 12.34 seconds
+[36mBatches computed: 120, Tau value: 0.040[0m
+[33mMean Loss: 1.2910349, Mean Center Loss: 0.7942024, Mean Hard Triplet Loss: 0.9936651[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 12.08 seconds
+[36mBatches computed: 144, Tau value: 0.040[0m
+[33mMean Loss: 1.1761200, Mean Center Loss: 0.7522554, Mean Hard Triplet Loss: 0.8477292[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 11.72 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 1.1714206, Mean Center Loss: 0.7302176, Mean Hard Triplet Loss: 0.8824061[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.18 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 2.5891001, Mean Center Loss: 1.6265323, Mean Hard Triplet Loss: 1.9251356[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.49 seconds
+[36mBatches computed: 48, Tau value: 0.040[0m
+[33mMean Loss: 2.4238799, Mean Center Loss: 1.5413157, Mean Hard Triplet Loss: 1.7651284[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.72 seconds
+[36mBatches computed: 72, Tau value: 0.040[0m
+[33mMean Loss: 2.2530233, Mean Center Loss: 1.3834584, Mean Hard Triplet Loss: 1.7391298[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.58 seconds
+[36mBatches computed: 96, Tau value: 0.040[0m
+[33mMean Loss: 2.1498687, Mean Center Loss: 1.3714445, Mean Hard Triplet Loss: 1.5568484[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.69 seconds
+[36mBatches computed: 120, Tau value: 0.040[0m
+[33mMean Loss: 2.0662291, Mean Center Loss: 1.2808471, Mean Hard Triplet Loss: 1.5707640[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.86 seconds
+[36mBatches computed: 144, Tau value: 0.040[0m
+[33mMean Loss: 2.0766315, Mean Center Loss: 1.2996107, Mean Hard Triplet Loss: 1.5540415[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.00 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 2.0236027, Mean Center Loss: 1.2697192, Mean Hard Triplet Loss: 1.5077671[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 10.99 seconds
+[36mBatches computed: 24, Tau value: 0.040[0m
+[33mMean Loss: 1.7709588, Mean Center Loss: 1.1392136, Mean Hard Triplet Loss: 1.2634905[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.83 seconds
+[36mBatches computed: 48, Tau value: 0.040[0m
+[33mMean Loss: 1.6982572, Mean Center Loss: 1.0574086, Mean Hard Triplet Loss: 1.2816973[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.81 seconds
+[36mBatches computed: 72, Tau value: 0.040[0m
+[33mMean Loss: 1.5625062, Mean Center Loss: 0.9912188, Mean Hard Triplet Loss: 1.1425747[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.14 seconds
+[36mBatches computed: 96, Tau value: 0.040[0m
+[33mMean Loss: 1.5052208, Mean Center Loss: 0.9345448, Mean Hard Triplet Loss: 1.1413520[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 120, Tau value: 0.040[0m
+[33mMean Loss: 1.4189855, Mean Center Loss: 0.9259679, Mean Hard Triplet Loss: 0.9860353[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.53 seconds
+[36mBatches computed: 144, Tau value: 0.040[0m
+[33mMean Loss: 1.3220502, Mean Center Loss: 0.8342496, Mean Hard Triplet Loss: 0.9756012[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.74 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 1.3238072, Mean Center Loss: 0.8480493, Mean Hard Triplet Loss: 0.9515158[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+###============ Iteration number 9/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.39 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.88 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.45 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.68523406982422
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.643218755722046
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.322840452194214
+Reliability: 0.893
+[32mMean Purity: 0.40287[0m
+[34mThere are 11 clusters with 1 cameras[0m
+[34mThere are 18 clusters with 2 cameras[0m
+[34mThere are 48 clusters with 3 cameras[0m
+[34mThere are 94 clusters with 4 cameras[0m
+[34mThere are 149 clusters with 5 cameras[0m
+[34mThere are 87 clusters with 6 cameras[0m
+Number of classes: 407
+[36mLearning Rate: 0.000315[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.61 seconds
+[36mBatches computed: 25, Tau value: 0.040[0m
+[33mMean Loss: 1.4912831, Mean Center Loss: 0.9416248, Mean Hard Triplet Loss: 1.0993167[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.00 seconds
+[36mBatches computed: 50, Tau value: 0.040[0m
+[33mMean Loss: 1.4138714, Mean Center Loss: 0.8959348, Mean Hard Triplet Loss: 1.0358732[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 12.56 seconds
+[36mBatches computed: 75, Tau value: 0.040[0m
+[33mMean Loss: 1.2822222, Mean Center Loss: 0.8170124, Mean Hard Triplet Loss: 0.9304196[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 12.48 seconds
+[36mBatches computed: 100, Tau value: 0.040[0m
+[33mMean Loss: 1.3151315, Mean Center Loss: 0.8710305, Mean Hard Triplet Loss: 0.8882020[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 11.87 seconds
+[36mBatches computed: 125, Tau value: 0.040[0m
+[33mMean Loss: 1.2191486, Mean Center Loss: 0.7714009, Mean Hard Triplet Loss: 0.8954955[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.35 seconds
+[36mBatches computed: 150, Tau value: 0.040[0m
+[33mMean Loss: 1.1607973, Mean Center Loss: 0.7292647, Mean Hard Triplet Loss: 0.8630652[0m
+[5m[34mPercetage of correct triplets: 0.78[0m
+Features extracted in 12.03 seconds
+[36mBatches computed: 175, Tau value: 0.040[0m
+[33mMean Loss: 1.0801603, Mean Center Loss: 0.7075735, Mean Hard Triplet Loss: 0.7451736[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.04 seconds
+[36mBatches computed: 25, Tau value: 0.040[0m
+[33mMean Loss: 2.1768597, Mean Center Loss: 1.3722830, Mean Hard Triplet Loss: 1.6091533[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.77 seconds
+[36mBatches computed: 50, Tau value: 0.040[0m
+[33mMean Loss: 1.9200146, Mean Center Loss: 1.2070829, Mean Hard Triplet Loss: 1.4258635[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 9.86 seconds
+[36mBatches computed: 75, Tau value: 0.040[0m
+[33mMean Loss: 2.0161024, Mean Center Loss: 1.2800719, Mean Hard Triplet Loss: 1.4720612[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.95 seconds
+[36mBatches computed: 100, Tau value: 0.040[0m
+[33mMean Loss: 1.8804025, Mean Center Loss: 1.1987874, Mean Hard Triplet Loss: 1.3632301[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.14 seconds
+[36mBatches computed: 125, Tau value: 0.040[0m
+[33mMean Loss: 1.9590777, Mean Center Loss: 1.2251314, Mean Hard Triplet Loss: 1.4678926[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 9.74 seconds
+[36mBatches computed: 150, Tau value: 0.040[0m
+[33mMean Loss: 1.7985845, Mean Center Loss: 1.1521573, Mean Hard Triplet Loss: 1.2928544[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 9.97 seconds
+[36mBatches computed: 175, Tau value: 0.040[0m
+[33mMean Loss: 1.7503572, Mean Center Loss: 1.1103847, Mean Hard Triplet Loss: 1.2799450[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.02 seconds
+[36mBatches computed: 25, Tau value: 0.040[0m
+[33mMean Loss: 1.5099303, Mean Center Loss: 0.9393880, Mean Hard Triplet Loss: 1.1410845[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.97 seconds
+[36mBatches computed: 50, Tau value: 0.040[0m
+[33mMean Loss: 1.5481294, Mean Center Loss: 1.0020753, Mean Hard Triplet Loss: 1.0921082[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 10.64 seconds
+[36mBatches computed: 75, Tau value: 0.040[0m
+[33mMean Loss: 1.5075914, Mean Center Loss: 0.9365196, Mean Hard Triplet Loss: 1.1421437[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.89 seconds
+[36mBatches computed: 100, Tau value: 0.040[0m
+[33mMean Loss: 1.4176332, Mean Center Loss: 0.9053403, Mean Hard Triplet Loss: 1.0245857[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 11.02 seconds
+[36mBatches computed: 125, Tau value: 0.040[0m
+[33mMean Loss: 1.2911574, Mean Center Loss: 0.8189508, Mean Hard Triplet Loss: 0.9444132[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.64 seconds
+[36mBatches computed: 150, Tau value: 0.040[0m
+[33mMean Loss: 1.2544836, Mean Center Loss: 0.7910412, Mean Hard Triplet Loss: 0.9268849[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 11.12 seconds
+[36mBatches computed: 175, Tau value: 0.040[0m
+[33mMean Loss: 1.1866033, Mean Center Loss: 0.7120252, Mean Hard Triplet Loss: 0.9491562[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+###============ Iteration number 10/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.40 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.96 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.83 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.88185429573059
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.396462202072144
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.663780689239502
+Reliability: 0.910
+[32mMean Purity: 0.39627[0m
+[34mThere are 11 clusters with 1 cameras[0m
+[34mThere are 23 clusters with 2 cameras[0m
+[34mThere are 50 clusters with 3 cameras[0m
+[34mThere are 83 clusters with 4 cameras[0m
+[34mThere are 171 clusters with 5 cameras[0m
+[34mThere are 88 clusters with 6 cameras[0m
+Number of classes: 426
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.31 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.2882038, Mean Center Loss: 0.8297149, Mean Hard Triplet Loss: 0.9169779[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.31 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.3327056, Mean Center Loss: 0.8638044, Mean Hard Triplet Loss: 0.9378024[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.47 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.3430102, Mean Center Loss: 0.8661915, Mean Hard Triplet Loss: 0.9536373[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.63 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.1991289, Mean Center Loss: 0.7713023, Mean Hard Triplet Loss: 0.8556532[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.61 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.0952019, Mean Center Loss: 0.7227199, Mean Hard Triplet Loss: 0.7449640[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 12.73 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.0780952, Mean Center Loss: 0.6783387, Mean Hard Triplet Loss: 0.7995131[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.36 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.0457183, Mean Center Loss: 0.6834784, Mean Hard Triplet Loss: 0.7244797[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.02 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.8129555, Mean Center Loss: 1.1927622, Mean Hard Triplet Loss: 1.2403867[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.35 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.7690791, Mean Center Loss: 1.1256117, Mean Hard Triplet Loss: 1.2869347[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.00 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.7460850, Mean Center Loss: 1.0863350, Mean Hard Triplet Loss: 1.3195000[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.11 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.7196256, Mean Center Loss: 1.0992664, Mean Hard Triplet Loss: 1.2407186[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.28 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.6529346, Mean Center Loss: 1.0553626, Mean Hard Triplet Loss: 1.1951441[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.22 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.6002042, Mean Center Loss: 1.0386414, Mean Hard Triplet Loss: 1.1231255[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.20 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.5201176, Mean Center Loss: 0.9833475, Mean Hard Triplet Loss: 1.0735401[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 10.64 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.3501485, Mean Center Loss: 0.8578694, Mean Hard Triplet Loss: 0.9845581[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.50 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.3844535, Mean Center Loss: 0.8640026, Mean Hard Triplet Loss: 1.0409018[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.34 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.2602741, Mean Center Loss: 0.8346849, Mean Hard Triplet Loss: 0.8511783[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.90 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.2180367, Mean Center Loss: 0.7964659, Mean Hard Triplet Loss: 0.8431415[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.63 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.1867394, Mean Center Loss: 0.7456246, Mean Hard Triplet Loss: 0.8822297[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.93 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.1748473, Mean Center Loss: 0.7692220, Mean Hard Triplet Loss: 0.8112507[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.97 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.1126064, Mean Center Loss: 0.7075138, Mean Hard Triplet Loss: 0.8101853[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+[33mValidating online ResNet50 ...[0m
+Features extracted in 5.84 seconds
+Features extracted in 15.98 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 66.99%
+CMC curve
+Rank-1  : 83.73%
+Rank-5  : 93.53%
+Rank-10 : 95.40%
+Rank-20 : 97.09%
+[33mValidating momentum ResNet50 ...[0m
+Features extracted in 5.85 seconds
+Features extracted in 15.84 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 58.85%
+CMC curve
+Rank-1  : 79.63%
+Rank-5  : 90.97%
+Rank-10 : 94.24%
+Rank-20 : 96.35%
+[33mValidating online OSNet ...[0m
+Features extracted in 5.06 seconds
+Features extracted in 12.77 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.25%
+CMC curve
+Rank-1  : 83.22%
+Rank-5  : 93.26%
+Rank-10 : 95.67%
+Rank-20 : 97.18%
+[33mValidating momentum OSNet ...[0m
+Features extracted in 5.25 seconds
+Features extracted in 12.53 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 37.03%
+CMC curve
+Rank-1  : 65.53%
+Rank-5  : 81.59%
+Rank-10 : 87.20%
+Rank-20 : 90.94%
+[33mValidating online DenseNet121 ...[0m
+Features extracted in 5.69 seconds
+Features extracted in 14.11 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 66.01%
+CMC curve
+Rank-1  : 83.46%
+Rank-5  : 93.26%
+Rank-10 : 95.43%
+Rank-20 : 96.85%
+[33mValidating momentum DenseNet121 ...[0m
+Features extracted in 5.73 seconds
+Features extracted in 13.90 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 50.79%
+CMC curve
+Rank-1  : 73.28%
+Rank-5  : 87.98%
+Rank-10 : 92.25%
+Rank-20 : 94.80%
+[33mValidating ensembled with online models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 74.12%
+Ranks:
+Rank-1  : 88.18%
+Rank-5  : 94.98%
+Rank-10 : 96.73%
+[33mValidating ensembled with momentum models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 58.90%
+Ranks:
+Rank-1  : 80.20%
+Rank-5  : 91.42%
+Rank-10 : 94.39%
+###============ Iteration number 11/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.81 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.27 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.84 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.95875835418701
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.652196168899536
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.195373058319092
+Reliability: 0.925
+[32mMean Purity: 0.41151[0m
+[34mThere are 7 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 46 clusters with 3 cameras[0m
+[34mThere are 87 clusters with 4 cameras[0m
+[34mThere are 174 clusters with 5 cameras[0m
+[34mThere are 87 clusters with 6 cameras[0m
+Number of classes: 417
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.58 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.1923499, Mean Center Loss: 0.7504174, Mean Hard Triplet Loss: 0.8838651[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.61 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.1445282, Mean Center Loss: 0.7275326, Mean Hard Triplet Loss: 0.8339912[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.05 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.1290568, Mean Center Loss: 0.6964004, Mean Hard Triplet Loss: 0.8653127[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.88 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.0564241, Mean Center Loss: 0.6646529, Mean Hard Triplet Loss: 0.7835423[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.71 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.0721872, Mean Center Loss: 0.6834443, Mean Hard Triplet Loss: 0.7774858[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.89 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.9435317, Mean Center Loss: 0.6120366, Mean Hard Triplet Loss: 0.6629901[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.96 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.9315258, Mean Center Loss: 0.5862278, Mean Hard Triplet Loss: 0.6905959[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.6461994, Mean Center Loss: 1.0345184, Mean Hard Triplet Loss: 1.2233619[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.43 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.5905865, Mean Center Loss: 1.0082101, Mean Hard Triplet Loss: 1.1647528[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.25 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.4576921, Mean Center Loss: 0.9343539, Mean Hard Triplet Loss: 1.0466763[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.4887654, Mean Center Loss: 0.9663599, Mean Hard Triplet Loss: 1.0448111[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.61 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.4616275, Mean Center Loss: 0.9315767, Mean Hard Triplet Loss: 1.0601017[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.3965700, Mean Center Loss: 0.8839550, Mean Hard Triplet Loss: 1.0252299[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.29 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.3614876, Mean Center Loss: 0.8784074, Mean Hard Triplet Loss: 0.9661604[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.34 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.2705259, Mean Center Loss: 0.7962184, Mean Hard Triplet Loss: 0.9486150[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.95 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.2157901, Mean Center Loss: 0.7944590, Mean Hard Triplet Loss: 0.8426622[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.84 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.0805434, Mean Center Loss: 0.7131044, Mean Hard Triplet Loss: 0.7348778[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.33 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.0239927, Mean Center Loss: 0.6828652, Mean Hard Triplet Loss: 0.6822550[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.28 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.0089347, Mean Center Loss: 0.6333820, Mean Hard Triplet Loss: 0.7511053[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.75 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.9669790, Mean Center Loss: 0.6555970, Mean Hard Triplet Loss: 0.6227640[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.57 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.9888008, Mean Center Loss: 0.6259438, Mean Hard Triplet Loss: 0.7257140[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 12/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.35 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.03 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.24 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.12031626701355
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.437994003295898
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.878337621688843
+Reliability: 0.929
+[32mMean Purity: 0.40936[0m
+[34mThere are 10 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 45 clusters with 3 cameras[0m
+[34mThere are 97 clusters with 4 cameras[0m
+[34mThere are 174 clusters with 5 cameras[0m
+[34mThere are 88 clusters with 6 cameras[0m
+Number of classes: 430
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.18 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.0474033, Mean Center Loss: 0.6950588, Mean Hard Triplet Loss: 0.7046892[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.13 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.0025327, Mean Center Loss: 0.6252779, Mean Hard Triplet Loss: 0.7545098[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.50 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.9327765, Mean Center Loss: 0.6102508, Mean Hard Triplet Loss: 0.6450515[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 12.77 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 0.8580250, Mean Center Loss: 0.5632821, Mean Hard Triplet Loss: 0.5894859[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 13.10 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.8167256, Mean Center Loss: 0.5308608, Mean Hard Triplet Loss: 0.5717295[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.56 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.8229989, Mean Center Loss: 0.5271259, Mean Hard Triplet Loss: 0.5917461[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.65 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.8779372, Mean Center Loss: 0.5568367, Mean Hard Triplet Loss: 0.6422010[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.83 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.3872864, Mean Center Loss: 0.8954006, Mean Hard Triplet Loss: 0.9837716[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 10.38 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.4637504, Mean Center Loss: 0.9431960, Mean Hard Triplet Loss: 1.0411089[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 10.39 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.4226461, Mean Center Loss: 0.9372879, Mean Hard Triplet Loss: 0.9707162[0m
+[5m[34mPercetage of correct triplets: 0.71[0m
+Features extracted in 10.59 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.3792682, Mean Center Loss: 0.8852165, Mean Hard Triplet Loss: 0.9881033[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.33 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.2799627, Mean Center Loss: 0.8259712, Mean Hard Triplet Loss: 0.9079831[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.57 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.2088762, Mean Center Loss: 0.8062977, Mean Hard Triplet Loss: 0.8051571[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.82 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.2283300, Mean Center Loss: 0.7977589, Mean Hard Triplet Loss: 0.8611422[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.56 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.1458350, Mean Center Loss: 0.7429044, Mean Hard Triplet Loss: 0.8058612[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.73 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.1052500, Mean Center Loss: 0.7066206, Mean Hard Triplet Loss: 0.7972587[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.85 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.9474982, Mean Center Loss: 0.6250465, Mean Hard Triplet Loss: 0.6449035[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.51 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.0232800, Mean Center Loss: 0.6467181, Mean Hard Triplet Loss: 0.7531238[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.38 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.9415885, Mean Center Loss: 0.6348115, Mean Hard Triplet Loss: 0.6135542[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.46 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.8760804, Mean Center Loss: 0.5921547, Mean Hard Triplet Loss: 0.5678515[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.06 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.9115958, Mean Center Loss: 0.5849361, Mean Hard Triplet Loss: 0.6533194[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 13/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.57 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.42 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.79 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.113687992095947
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.390938520431519
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.62784504890442
+Reliability: 0.939
+[32mMean Purity: 0.40754[0m
+[34mThere are 4 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 44 clusters with 3 cameras[0m
+[34mThere are 93 clusters with 4 cameras[0m
+[34mThere are 175 clusters with 5 cameras[0m
+[34mThere are 91 clusters with 6 cameras[0m
+Number of classes: 423
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.03 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 0.9480372, Mean Center Loss: 0.6330703, Mean Hard Triplet Loss: 0.6299338[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.73 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 0.8246663, Mean Center Loss: 0.5444803, Mean Hard Triplet Loss: 0.5603721[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.76 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.7829809, Mean Center Loss: 0.5068185, Mean Hard Triplet Loss: 0.5523249[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.81 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 0.7466799, Mean Center Loss: 0.5059578, Mean Hard Triplet Loss: 0.4814443[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.14 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.7764845, Mean Center Loss: 0.5078219, Mean Hard Triplet Loss: 0.5373252[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.09 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.7552002, Mean Center Loss: 0.4966037, Mean Hard Triplet Loss: 0.5171930[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.02 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.6978485, Mean Center Loss: 0.4618450, Mean Hard Triplet Loss: 0.4720070[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.44 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.2981679, Mean Center Loss: 0.8398602, Mean Hard Triplet Loss: 0.9166155[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.78 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.2210689, Mean Center Loss: 0.7813405, Mean Hard Triplet Loss: 0.8794569[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.78 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.2831352, Mean Center Loss: 0.8055929, Mean Hard Triplet Loss: 0.9550847[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.83 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.2235821, Mean Center Loss: 0.7687087, Mean Hard Triplet Loss: 0.9097468[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.82 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.1702381, Mean Center Loss: 0.7685895, Mean Hard Triplet Loss: 0.8032972[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.72 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.1251456, Mean Center Loss: 0.7260488, Mean Hard Triplet Loss: 0.7981936[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.45 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.1102203, Mean Center Loss: 0.7314144, Mean Hard Triplet Loss: 0.7576118[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.41 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 0.9692909, Mean Center Loss: 0.6270826, Mean Hard Triplet Loss: 0.6844166[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.55 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 0.9580527, Mean Center Loss: 0.6169106, Mean Hard Triplet Loss: 0.6822842[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.61 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.8516548, Mean Center Loss: 0.5401908, Mean Hard Triplet Loss: 0.6229282[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.38 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 0.7951371, Mean Center Loss: 0.5399771, Mean Hard Triplet Loss: 0.5103200[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.85 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.7953462, Mean Center Loss: 0.5166267, Mean Hard Triplet Loss: 0.5574390[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.64 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.8054139, Mean Center Loss: 0.5232823, Mean Hard Triplet Loss: 0.5642633[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.33 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.7557403, Mean Center Loss: 0.4852792, Mean Hard Triplet Loss: 0.5409221[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 14/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.78 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.81 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.02 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.85495138168335
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.269240617752075
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.41346573829651
+Reliability: 0.941
+[32mMean Purity: 0.40499[0m
+[34mThere are 7 clusters with 1 cameras[0m
+[34mThere are 19 clusters with 2 cameras[0m
+[34mThere are 46 clusters with 3 cameras[0m
+[34mThere are 88 clusters with 4 cameras[0m
+[34mThere are 179 clusters with 5 cameras[0m
+[34mThere are 91 clusters with 6 cameras[0m
+Number of classes: 430
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.35 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 0.7579695, Mean Center Loss: 0.5024369, Mean Hard Triplet Loss: 0.5110652[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.32 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 0.7511311, Mean Center Loss: 0.5000123, Mean Hard Triplet Loss: 0.5022375[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.35 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.7531610, Mean Center Loss: 0.5090047, Mean Hard Triplet Loss: 0.4883127[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.98 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 0.7198197, Mean Center Loss: 0.4578484, Mean Hard Triplet Loss: 0.5239425[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.83 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.7584329, Mean Center Loss: 0.5038617, Mean Hard Triplet Loss: 0.5091423[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.03 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.6982654, Mean Center Loss: 0.4542554, Mean Hard Triplet Loss: 0.4880200[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.23 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.6995692, Mean Center Loss: 0.4769828, Mean Hard Triplet Loss: 0.4451728[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.53 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 1.1356176, Mean Center Loss: 0.7413061, Mean Hard Triplet Loss: 0.7886228[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 1.1067952, Mean Center Loss: 0.7127183, Mean Hard Triplet Loss: 0.7881539[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.74 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 1.0899994, Mean Center Loss: 0.7198487, Mean Hard Triplet Loss: 0.7403015[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.54 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 1.0590177, Mean Center Loss: 0.6884563, Mean Hard Triplet Loss: 0.7411227[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.59 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 1.0243392, Mean Center Loss: 0.6862664, Mean Hard Triplet Loss: 0.6761457[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.61 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 1.0762586, Mean Center Loss: 0.7076150, Mean Hard Triplet Loss: 0.7372872[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.73 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 1.0332508, Mean Center Loss: 0.6834275, Mean Hard Triplet Loss: 0.6996466[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.49 seconds
+[36mBatches computed: 26, Tau value: 0.040[0m
+[33mMean Loss: 0.8497474, Mean Center Loss: 0.5638304, Mean Hard Triplet Loss: 0.5718341[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.80 seconds
+[36mBatches computed: 52, Tau value: 0.040[0m
+[33mMean Loss: 0.7124620, Mean Center Loss: 0.4899636, Mean Hard Triplet Loss: 0.4449968[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.90 seconds
+[36mBatches computed: 78, Tau value: 0.040[0m
+[33mMean Loss: 0.7209718, Mean Center Loss: 0.4815383, Mean Hard Triplet Loss: 0.4788671[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.55 seconds
+[36mBatches computed: 104, Tau value: 0.040[0m
+[33mMean Loss: 0.7428241, Mean Center Loss: 0.4883423, Mean Hard Triplet Loss: 0.5089636[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.46 seconds
+[36mBatches computed: 130, Tau value: 0.040[0m
+[33mMean Loss: 0.6647928, Mean Center Loss: 0.4549379, Mean Hard Triplet Loss: 0.4197097[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.83 seconds
+[36mBatches computed: 156, Tau value: 0.040[0m
+[33mMean Loss: 0.7064755, Mean Center Loss: 0.4687512, Mean Hard Triplet Loss: 0.4754486[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.61 seconds
+[36mBatches computed: 182, Tau value: 0.040[0m
+[33mMean Loss: 0.6854600, Mean Center Loss: 0.4414185, Mean Hard Triplet Loss: 0.4880831[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 15/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.30 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.84 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.30 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.043310165405273
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.193253755569458
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.286234378814697
+Reliability: 0.943
+[32mMean Purity: 0.38719[0m
+[34mThere are 5 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 47 clusters with 3 cameras[0m
+[34mThere are 93 clusters with 4 cameras[0m
+[34mThere are 183 clusters with 5 cameras[0m
+[34mThere are 93 clusters with 6 cameras[0m
+Number of classes: 437
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.92 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.7071570, Mean Center Loss: 0.4593859, Mean Hard Triplet Loss: 0.4955421[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.33 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.6942664, Mean Center Loss: 0.4797672, Mean Hard Triplet Loss: 0.4289985[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.63 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.6402112, Mean Center Loss: 0.4188655, Mean Hard Triplet Loss: 0.4426914[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 13.19 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6240553, Mean Center Loss: 0.4183620, Mean Hard Triplet Loss: 0.4113867[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.10 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.6556055, Mean Center Loss: 0.4222130, Mean Hard Triplet Loss: 0.4667850[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.02 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.6093976, Mean Center Loss: 0.4150333, Mean Hard Triplet Loss: 0.3887286[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.90 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.6111203, Mean Center Loss: 0.4042066, Mean Hard Triplet Loss: 0.4138272[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.69 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 1.0143000, Mean Center Loss: 0.6589839, Mean Hard Triplet Loss: 0.7106321[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.57 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.9932989, Mean Center Loss: 0.6461907, Mean Hard Triplet Loss: 0.6942164[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.94 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.9739302, Mean Center Loss: 0.6312856, Mean Hard Triplet Loss: 0.6852891[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 10.46 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.9494738, Mean Center Loss: 0.6383231, Mean Hard Triplet Loss: 0.6223015[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.77 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.9579336, Mean Center Loss: 0.6324340, Mean Hard Triplet Loss: 0.6509992[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.71 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.8726193, Mean Center Loss: 0.5747839, Mean Hard Triplet Loss: 0.5956707[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.68 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.9088623, Mean Center Loss: 0.5799242, Mean Hard Triplet Loss: 0.6578763[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.50 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.8121485, Mean Center Loss: 0.5094937, Mean Hard Triplet Loss: 0.6053095[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.93 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.7241608, Mean Center Loss: 0.4723989, Mean Hard Triplet Loss: 0.5035237[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.75 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.7082215, Mean Center Loss: 0.4794069, Mean Hard Triplet Loss: 0.4576293[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.54 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6199111, Mean Center Loss: 0.4018960, Mean Hard Triplet Loss: 0.4360301[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.87 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.6458749, Mean Center Loss: 0.4254237, Mean Hard Triplet Loss: 0.4409023[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.53 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.6312589, Mean Center Loss: 0.4165158, Mean Hard Triplet Loss: 0.4294862[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 11.62 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.6284820, Mean Center Loss: 0.4160369, Mean Hard Triplet Loss: 0.4248902[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 16/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.66 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.11 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.09 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.69253659248352
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.439300775527954
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.989980459213257
+Reliability: 0.952
+[32mMean Purity: 0.40911[0m
+[34mThere are 5 clusters with 1 cameras[0m
+[34mThere are 17 clusters with 2 cameras[0m
+[34mThere are 47 clusters with 3 cameras[0m
+[34mThere are 93 clusters with 4 cameras[0m
+[34mThere are 189 clusters with 5 cameras[0m
+[34mThere are 94 clusters with 6 cameras[0m
+Number of classes: 445
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.17 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.7246822, Mean Center Loss: 0.4892045, Mean Hard Triplet Loss: 0.4709555[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.26 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.7346482, Mean Center Loss: 0.4827652, Mean Hard Triplet Loss: 0.5037658[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.36 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.6667155, Mean Center Loss: 0.4391285, Mean Hard Triplet Loss: 0.4551739[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.24 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6279720, Mean Center Loss: 0.4217299, Mean Hard Triplet Loss: 0.4124843[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.18 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.6719992, Mean Center Loss: 0.4347309, Mean Hard Triplet Loss: 0.4745365[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.76 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.7063483, Mean Center Loss: 0.4727533, Mean Hard Triplet Loss: 0.4671900[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.30 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.6701859, Mean Center Loss: 0.4391559, Mean Hard Triplet Loss: 0.4620600[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 1.0180050, Mean Center Loss: 0.6806279, Mean Hard Triplet Loss: 0.6747544[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.78 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.9418831, Mean Center Loss: 0.6344202, Mean Hard Triplet Loss: 0.6149257[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.43 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.8769654, Mean Center Loss: 0.5807524, Mean Hard Triplet Loss: 0.5924260[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.42 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.8574169, Mean Center Loss: 0.5610465, Mean Hard Triplet Loss: 0.5927408[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.53 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.9003080, Mean Center Loss: 0.6111455, Mean Hard Triplet Loss: 0.5783250[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.55 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.8989546, Mean Center Loss: 0.6124779, Mean Hard Triplet Loss: 0.5729536[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.82 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.8383618, Mean Center Loss: 0.5485012, Mean Hard Triplet Loss: 0.5797210[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.69 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.7340384, Mean Center Loss: 0.4950504, Mean Hard Triplet Loss: 0.4779760[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.67 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.7311663, Mean Center Loss: 0.4844514, Mean Hard Triplet Loss: 0.4934297[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.86 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.6671471, Mean Center Loss: 0.4454034, Mean Hard Triplet Loss: 0.4434875[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.81 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6738985, Mean Center Loss: 0.4508887, Mean Hard Triplet Loss: 0.4460196[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.72 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.6340130, Mean Center Loss: 0.4262217, Mean Hard Triplet Loss: 0.4155826[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.09 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.7499667, Mean Center Loss: 0.4839171, Mean Hard Triplet Loss: 0.5320992[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.79 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.6129647, Mean Center Loss: 0.4072140, Mean Hard Triplet Loss: 0.4115012[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 17/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.20 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.99 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.20 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.356353044509888
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.481601476669312
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.10849165916443
+Reliability: 0.956
+[32mMean Purity: 0.41442[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 15 clusters with 2 cameras[0m
+[34mThere are 45 clusters with 3 cameras[0m
+[34mThere are 95 clusters with 4 cameras[0m
+[34mThere are 191 clusters with 5 cameras[0m
+[34mThere are 97 clusters with 6 cameras[0m
+Number of classes: 446
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.15 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.6614547, Mean Center Loss: 0.4557418, Mean Hard Triplet Loss: 0.4114258[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.11 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.6936138, Mean Center Loss: 0.4634071, Mean Hard Triplet Loss: 0.4604134[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.11 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.6265562, Mean Center Loss: 0.4253634, Mean Hard Triplet Loss: 0.4023857[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.74 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6274387, Mean Center Loss: 0.4206854, Mean Hard Triplet Loss: 0.4135065[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.50 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.6487548, Mean Center Loss: 0.4382504, Mean Hard Triplet Loss: 0.4210088[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.29 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.5872444, Mean Center Loss: 0.3874649, Mean Hard Triplet Loss: 0.3995592[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.89 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.6360289, Mean Center Loss: 0.4297128, Mean Hard Triplet Loss: 0.4126322[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.8901568, Mean Center Loss: 0.5993393, Mean Hard Triplet Loss: 0.5816351[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.57 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.8838358, Mean Center Loss: 0.5816790, Mean Hard Triplet Loss: 0.6043136[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.8864290, Mean Center Loss: 0.6087241, Mean Hard Triplet Loss: 0.5554098[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.8880042, Mean Center Loss: 0.5870518, Mean Hard Triplet Loss: 0.6019048[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.74 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.8940860, Mean Center Loss: 0.5960297, Mean Hard Triplet Loss: 0.5961125[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.8149873, Mean Center Loss: 0.5350517, Mean Hard Triplet Loss: 0.5598710[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.81 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.8200073, Mean Center Loss: 0.5553505, Mean Hard Triplet Loss: 0.5293135[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.50 seconds
+[36mBatches computed: 27, Tau value: 0.040[0m
+[33mMean Loss: 0.6427698, Mean Center Loss: 0.4262219, Mean Hard Triplet Loss: 0.4330957[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.82 seconds
+[36mBatches computed: 54, Tau value: 0.040[0m
+[33mMean Loss: 0.6757967, Mean Center Loss: 0.4417709, Mean Hard Triplet Loss: 0.4680517[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.87 seconds
+[36mBatches computed: 81, Tau value: 0.040[0m
+[33mMean Loss: 0.6153491, Mean Center Loss: 0.4022563, Mean Hard Triplet Loss: 0.4261856[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.05 seconds
+[36mBatches computed: 108, Tau value: 0.040[0m
+[33mMean Loss: 0.6216651, Mean Center Loss: 0.4231913, Mean Hard Triplet Loss: 0.3969476[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.45 seconds
+[36mBatches computed: 135, Tau value: 0.040[0m
+[33mMean Loss: 0.5664355, Mean Center Loss: 0.3956356, Mean Hard Triplet Loss: 0.3415998[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.73 seconds
+[36mBatches computed: 162, Tau value: 0.040[0m
+[33mMean Loss: 0.6015745, Mean Center Loss: 0.4027085, Mean Hard Triplet Loss: 0.3977321[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.77 seconds
+[36mBatches computed: 189, Tau value: 0.040[0m
+[33mMean Loss: 0.5907995, Mean Center Loss: 0.3934085, Mean Hard Triplet Loss: 0.3947820[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 18/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.32 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.11 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.20 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.614216327667236
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.302388191223145
+Computing jaccard distance...
+Jaccard distance computing time cost: 21.515715837478638
+Reliability: 0.960
+[32mMean Purity: 0.40694[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 45 clusters with 3 cameras[0m
+[34mThere are 97 clusters with 4 cameras[0m
+[34mThere are 193 clusters with 5 cameras[0m
+[34mThere are 98 clusters with 6 cameras[0m
+Number of classes: 452
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.51 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.7169546, Mean Center Loss: 0.4687709, Mean Hard Triplet Loss: 0.4963675[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.27 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6748289, Mean Center Loss: 0.4525248, Mean Hard Triplet Loss: 0.4446082[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.92 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.6957074, Mean Center Loss: 0.4592847, Mean Hard Triplet Loss: 0.4728453[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.17 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5922612, Mean Center Loss: 0.4080857, Mean Hard Triplet Loss: 0.3683510[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.01 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.6491112, Mean Center Loss: 0.4175785, Mean Hard Triplet Loss: 0.4630653[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.02 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6323500, Mean Center Loss: 0.4253984, Mean Hard Triplet Loss: 0.4139031[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.16 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5865371, Mean Center Loss: 0.4121212, Mean Hard Triplet Loss: 0.3488317[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.77 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.8642775, Mean Center Loss: 0.5671573, Mean Hard Triplet Loss: 0.5942405[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.8339403, Mean Center Loss: 0.5658350, Mean Hard Triplet Loss: 0.5362105[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.71 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.8161951, Mean Center Loss: 0.5482294, Mean Hard Triplet Loss: 0.5359314[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.84 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.8745660, Mean Center Loss: 0.5922009, Mean Hard Triplet Loss: 0.5647303[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.77 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.7617359, Mean Center Loss: 0.5236134, Mean Hard Triplet Loss: 0.4762450[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.39 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.7601735, Mean Center Loss: 0.5178237, Mean Hard Triplet Loss: 0.4846997[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.87 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.7807910, Mean Center Loss: 0.5169468, Mean Hard Triplet Loss: 0.5276886[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.75 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6349356, Mean Center Loss: 0.4160104, Mean Hard Triplet Loss: 0.4378503[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 11.85 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6662462, Mean Center Loss: 0.4633858, Mean Hard Triplet Loss: 0.4057208[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.56 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5782769, Mean Center Loss: 0.3945313, Mean Hard Triplet Loss: 0.3674913[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.79 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5954953, Mean Center Loss: 0.4024712, Mean Hard Triplet Loss: 0.3860481[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.81 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5775233, Mean Center Loss: 0.4001058, Mean Hard Triplet Loss: 0.3548350[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.71 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5226506, Mean Center Loss: 0.3520746, Mean Hard Triplet Loss: 0.3411521[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.58 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5863832, Mean Center Loss: 0.3996048, Mean Hard Triplet Loss: 0.3735568[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 19/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.57 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.38 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.06 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 17.714831590652466
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.48574423789978
+Computing jaccard distance...
+Jaccard distance computing time cost: 16.569443225860596
+Reliability: 0.962
+[32mMean Purity: 0.40924[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 44 clusters with 3 cameras[0m
+[34mThere are 95 clusters with 4 cameras[0m
+[34mThere are 197 clusters with 5 cameras[0m
+[34mThere are 97 clusters with 6 cameras[0m
+Number of classes: 452
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.48 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6445279, Mean Center Loss: 0.4272075, Mean Hard Triplet Loss: 0.4346409[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.25 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6329041, Mean Center Loss: 0.4501641, Mean Hard Triplet Loss: 0.3654800[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.47 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5704084, Mean Center Loss: 0.3877257, Mean Hard Triplet Loss: 0.3653653[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.19 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.6034992, Mean Center Loss: 0.4039941, Mean Hard Triplet Loss: 0.3990102[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.51 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4979291, Mean Center Loss: 0.3456262, Mean Hard Triplet Loss: 0.3046058[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.16 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6003004, Mean Center Loss: 0.3904541, Mean Hard Triplet Loss: 0.4196927[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.09 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5820106, Mean Center Loss: 0.3924929, Mean Hard Triplet Loss: 0.3790356[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 11.11 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.8162523, Mean Center Loss: 0.5469130, Mean Hard Triplet Loss: 0.5386787[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.58 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.8412569, Mean Center Loss: 0.5592067, Mean Hard Triplet Loss: 0.5641004[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.72 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.7366839, Mean Center Loss: 0.4916982, Mean Hard Triplet Loss: 0.4899714[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.7907386, Mean Center Loss: 0.5346138, Mean Hard Triplet Loss: 0.5122496[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.64 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.7837903, Mean Center Loss: 0.5181175, Mean Hard Triplet Loss: 0.5313456[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.45 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.7063659, Mean Center Loss: 0.4703549, Mean Hard Triplet Loss: 0.4720218[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.83 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.7484842, Mean Center Loss: 0.4954269, Mean Hard Triplet Loss: 0.5061146[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.68 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5726655, Mean Center Loss: 0.3777079, Mean Hard Triplet Loss: 0.3899152[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.40 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5681760, Mean Center Loss: 0.3850180, Mean Hard Triplet Loss: 0.3663161[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.44 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5533960, Mean Center Loss: 0.3475800, Mean Hard Triplet Loss: 0.4116319[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.79 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5799725, Mean Center Loss: 0.3761437, Mean Hard Triplet Loss: 0.4076576[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.91 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5625219, Mean Center Loss: 0.3896507, Mean Hard Triplet Loss: 0.3457426[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.98 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4983083, Mean Center Loss: 0.3400951, Mean Hard Triplet Loss: 0.3164263[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.05 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5323152, Mean Center Loss: 0.3743826, Mean Hard Triplet Loss: 0.3158652[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+###============ Iteration number 20/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.27 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.99 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.14 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.105472087860107
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.231727600097656
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.130640506744385
+Reliability: 0.961
+[32mMean Purity: 0.40153[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 16 clusters with 2 cameras[0m
+[34mThere are 45 clusters with 3 cameras[0m
+[34mThere are 96 clusters with 4 cameras[0m
+[34mThere are 199 clusters with 5 cameras[0m
+[34mThere are 96 clusters with 6 cameras[0m
+Number of classes: 455
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.10 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6212512, Mean Center Loss: 0.4133105, Mean Hard Triplet Loss: 0.4158815[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.46 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6239186, Mean Center Loss: 0.4130701, Mean Hard Triplet Loss: 0.4216968[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.18 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5756776, Mean Center Loss: 0.3924872, Mean Hard Triplet Loss: 0.3663806[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.33 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5207469, Mean Center Loss: 0.3562825, Mean Hard Triplet Loss: 0.3289289[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.43 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5142897, Mean Center Loss: 0.3508223, Mean Hard Triplet Loss: 0.3269348[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.30 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4943874, Mean Center Loss: 0.3381899, Mean Hard Triplet Loss: 0.3123949[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.22 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4852734, Mean Center Loss: 0.3238049, Mean Hard Triplet Loss: 0.3229371[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.86 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.7066025, Mean Center Loss: 0.4780525, Mean Hard Triplet Loss: 0.4571000[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.7065816, Mean Center Loss: 0.4612625, Mean Hard Triplet Loss: 0.4906382[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.92 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.7015016, Mean Center Loss: 0.4799016, Mean Hard Triplet Loss: 0.4432001[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.54 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.7231084, Mean Center Loss: 0.4760085, Mean Hard Triplet Loss: 0.4941998[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.7133809, Mean Center Loss: 0.4784214, Mean Hard Triplet Loss: 0.4699190[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.46 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6935473, Mean Center Loss: 0.4676273, Mean Hard Triplet Loss: 0.4518399[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.77 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.6962587, Mean Center Loss: 0.4616263, Mean Hard Triplet Loss: 0.4692648[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.82 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4948935, Mean Center Loss: 0.3362554, Mean Hard Triplet Loss: 0.3172763[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.58 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5065610, Mean Center Loss: 0.3310262, Mean Hard Triplet Loss: 0.3510696[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.86 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4707189, Mean Center Loss: 0.3150488, Mean Hard Triplet Loss: 0.3113401[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.54 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4380400, Mean Center Loss: 0.3016852, Mean Hard Triplet Loss: 0.2727095[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.06 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4690986, Mean Center Loss: 0.3080896, Mean Hard Triplet Loss: 0.3220180[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.79 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4472276, Mean Center Loss: 0.3154057, Mean Hard Triplet Loss: 0.2636437[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.93 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4387308, Mean Center Loss: 0.2949041, Mean Hard Triplet Loss: 0.2876533[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[33mValidating online ResNet50 ...[0m
+Features extracted in 6.24 seconds
+Features extracted in 16.30 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 72.25%
+CMC curve
+Rank-1  : 87.38%
+Rank-5  : 95.19%
+Rank-10 : 96.97%
+Rank-20 : 97.92%
+[33mValidating momentum ResNet50 ...[0m
+Features extracted in 6.06 seconds
+Features extracted in 15.72 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 79.32%
+CMC curve
+Rank-1  : 91.36%
+Rank-5  : 96.53%
+Rank-10 : 97.89%
+Rank-20 : 98.63%
+[33mValidating online OSNet ...[0m
+Features extracted in 5.63 seconds
+Features extracted in 12.84 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 73.80%
+CMC curve
+Rank-1  : 87.86%
+Rank-5  : 95.19%
+Rank-10 : 96.94%
+Rank-20 : 97.98%
+[33mValidating momentum OSNet ...[0m
+Features extracted in 5.36 seconds
+Features extracted in 12.72 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 74.44%
+CMC curve
+Rank-1  : 88.60%
+Rank-5  : 95.55%
+Rank-10 : 97.00%
+Rank-20 : 98.16%
+[33mValidating online DenseNet121 ...[0m
+Features extracted in 5.47 seconds
+Features extracted in 14.33 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 72.31%
+CMC curve
+Rank-1  : 86.88%
+Rank-5  : 94.77%
+Rank-10 : 96.50%
+Rank-20 : 97.80%
+[33mValidating momentum DenseNet121 ...[0m
+Features extracted in 5.44 seconds
+Features extracted in 14.25 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 77.27%
+CMC curve
+Rank-1  : 89.07%
+Rank-5  : 96.17%
+Rank-10 : 97.48%
+Rank-20 : 98.46%
+[33mValidating ensembled with online models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 80.18%
+Ranks:
+Rank-1  : 91.48%
+Rank-5  : 96.53%
+Rank-10 : 97.71%
+[33mValidating ensembled with momentum models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 81.77%
+Ranks:
+Rank-1  : 92.13%
+Rank-5  : 96.85%
+Rank-10 : 97.89%
+###============ Iteration number 21/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.76 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.89 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 11.91 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.783462047576904
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.077067375183105
+Computing jaccard distance...
+Jaccard distance computing time cost: 21.314074754714966
+Reliability: 0.964
+[32mMean Purity: 0.41277[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 15 clusters with 2 cameras[0m
+[34mThere are 43 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 197 clusters with 5 cameras[0m
+[34mThere are 98 clusters with 6 cameras[0m
+Number of classes: 455
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.38 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5870668, Mean Center Loss: 0.3907562, Mean Hard Triplet Loss: 0.3926212[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.82 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5385288, Mean Center Loss: 0.3709622, Mean Hard Triplet Loss: 0.3351332[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.91 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5325388, Mean Center Loss: 0.3573522, Mean Hard Triplet Loss: 0.3503731[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.37 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4813780, Mean Center Loss: 0.3312624, Mean Hard Triplet Loss: 0.3002311[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.05 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4850698, Mean Center Loss: 0.3398851, Mean Hard Triplet Loss: 0.2903695[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.07 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5293446, Mean Center Loss: 0.3572523, Mean Hard Triplet Loss: 0.3441846[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.13 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5031661, Mean Center Loss: 0.3332831, Mean Hard Triplet Loss: 0.3397660[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6842575, Mean Center Loss: 0.4700644, Mean Hard Triplet Loss: 0.4283862[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.87 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6382112, Mean Center Loss: 0.4259898, Mean Hard Triplet Loss: 0.4244429[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.47 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.6685431, Mean Center Loss: 0.4515546, Mean Hard Triplet Loss: 0.4339771[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.25 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.6919981, Mean Center Loss: 0.4710112, Mean Hard Triplet Loss: 0.4419737[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.47 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.6992616, Mean Center Loss: 0.4606124, Mean Hard Triplet Loss: 0.4772983[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.47 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6172129, Mean Center Loss: 0.4083184, Mean Hard Triplet Loss: 0.4177890[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.52 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.6051670, Mean Center Loss: 0.4063570, Mean Hard Triplet Loss: 0.3976199[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.52 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4795967, Mean Center Loss: 0.3242376, Mean Hard Triplet Loss: 0.3107182[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.03 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4827706, Mean Center Loss: 0.3333581, Mean Hard Triplet Loss: 0.2988250[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.01 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4914455, Mean Center Loss: 0.3341867, Mean Hard Triplet Loss: 0.3145176[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.51 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4689016, Mean Center Loss: 0.3240782, Mean Hard Triplet Loss: 0.2896468[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.76 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5171438, Mean Center Loss: 0.3564248, Mean Hard Triplet Loss: 0.3214380[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 12.01 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4992519, Mean Center Loss: 0.3295492, Mean Hard Triplet Loss: 0.3394053[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.82 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4252247, Mean Center Loss: 0.2976040, Mean Hard Triplet Loss: 0.2552413[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 22/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.39 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.17 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.34 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.389941453933716
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.324140548706055
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.63232660293579
+Reliability: 0.964
+[32mMean Purity: 0.41416[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 41 clusters with 3 cameras[0m
+[34mThere are 100 clusters with 4 cameras[0m
+[34mThere are 203 clusters with 5 cameras[0m
+[34mThere are 97 clusters with 6 cameras[0m
+Number of classes: 457
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.15 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5068671, Mean Center Loss: 0.3400172, Mean Hard Triplet Loss: 0.3336999[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.85 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4541572, Mean Center Loss: 0.3197512, Mean Hard Triplet Loss: 0.2688119[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.25 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5016521, Mean Center Loss: 0.3468596, Mean Hard Triplet Loss: 0.3095851[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.06 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5569119, Mean Center Loss: 0.3620403, Mean Hard Triplet Loss: 0.3897432[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.98 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5637842, Mean Center Loss: 0.3871983, Mean Hard Triplet Loss: 0.3531717[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.08 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5491380, Mean Center Loss: 0.3647864, Mean Hard Triplet Loss: 0.3687031[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.50 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5518702, Mean Center Loss: 0.3712378, Mean Hard Triplet Loss: 0.3612648[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.58 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6636878, Mean Center Loss: 0.4453363, Mean Hard Triplet Loss: 0.4367029[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.93 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6863171, Mean Center Loss: 0.4525504, Mean Hard Triplet Loss: 0.4675334[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.6122574, Mean Center Loss: 0.4099329, Mean Hard Triplet Loss: 0.4046490[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.36 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.6480036, Mean Center Loss: 0.4441840, Mean Hard Triplet Loss: 0.4076393[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 10.71 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5929760, Mean Center Loss: 0.4104852, Mean Hard Triplet Loss: 0.3649816[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 11.02 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6304529, Mean Center Loss: 0.4151634, Mean Hard Triplet Loss: 0.4305790[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.43 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.6074368, Mean Center Loss: 0.4019166, Mean Hard Triplet Loss: 0.4110404[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.67 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5011249, Mean Center Loss: 0.3234493, Mean Hard Triplet Loss: 0.3553514[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.93 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4930345, Mean Center Loss: 0.3345639, Mean Hard Triplet Loss: 0.3169412[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.60 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4457581, Mean Center Loss: 0.2900972, Mean Hard Triplet Loss: 0.3113217[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.63 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4468825, Mean Center Loss: 0.2958414, Mean Hard Triplet Loss: 0.3020822[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.91 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4384567, Mean Center Loss: 0.2963995, Mean Hard Triplet Loss: 0.2841144[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.67 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4109446, Mean Center Loss: 0.2820388, Mean Hard Triplet Loss: 0.2578115[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 11.38 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3951331, Mean Center Loss: 0.2736509, Mean Hard Triplet Loss: 0.2429644[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+###============ Iteration number 23/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.50 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.74 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.08 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.399807453155518
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.132184267044067
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.657966136932373
+Reliability: 0.966
+[32mMean Purity: 0.41641[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 14 clusters with 2 cameras[0m
+[34mThere are 41 clusters with 3 cameras[0m
+[34mThere are 101 clusters with 4 cameras[0m
+[34mThere are 202 clusters with 5 cameras[0m
+[34mThere are 99 clusters with 6 cameras[0m
+Number of classes: 460
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.46 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5557147, Mean Center Loss: 0.3636321, Mean Hard Triplet Loss: 0.3841653[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.07 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5151569, Mean Center Loss: 0.3377685, Mean Hard Triplet Loss: 0.3547766[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.28 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5316580, Mean Center Loss: 0.3592137, Mean Hard Triplet Loss: 0.3448885[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.34 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5070449, Mean Center Loss: 0.3394560, Mean Hard Triplet Loss: 0.3351778[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.14 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5428736, Mean Center Loss: 0.3578529, Mean Hard Triplet Loss: 0.3700414[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 13.24 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5076549, Mean Center Loss: 0.3356682, Mean Hard Triplet Loss: 0.3439734[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.32 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4768279, Mean Center Loss: 0.3334406, Mean Hard Triplet Loss: 0.2867746[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining OSNet ...[0m
+Features extracted in 11.00 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.6720455, Mean Center Loss: 0.4575127, Mean Hard Triplet Loss: 0.4290656[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.50 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6145024, Mean Center Loss: 0.4131264, Mean Hard Triplet Loss: 0.4027521[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.98 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5853903, Mean Center Loss: 0.3991902, Mean Hard Triplet Loss: 0.3724003[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5870622, Mean Center Loss: 0.3985131, Mean Hard Triplet Loss: 0.3770983[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.59 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5748165, Mean Center Loss: 0.4017119, Mean Hard Triplet Loss: 0.3462093[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.80 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.6075460, Mean Center Loss: 0.4090566, Mean Hard Triplet Loss: 0.3969789[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.71 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5983107, Mean Center Loss: 0.4130050, Mean Hard Triplet Loss: 0.3706114[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.94 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4585716, Mean Center Loss: 0.3159761, Mean Hard Triplet Loss: 0.2851910[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.77 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4098376, Mean Center Loss: 0.2976894, Mean Hard Triplet Loss: 0.2242965[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.69 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4415760, Mean Center Loss: 0.3021500, Mean Hard Triplet Loss: 0.2788520[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.15 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4249826, Mean Center Loss: 0.2973557, Mean Hard Triplet Loss: 0.2552538[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.90 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4731686, Mean Center Loss: 0.3136734, Mean Hard Triplet Loss: 0.3189905[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 11.61 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4607266, Mean Center Loss: 0.3123880, Mean Hard Triplet Loss: 0.2966771[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.50 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3910114, Mean Center Loss: 0.2803083, Mean Hard Triplet Loss: 0.2214062[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 24/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.34 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.67 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.27 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.93054437637329
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.062147855758667
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.435389518737793
+Reliability: 0.961
+[32mMean Purity: 0.40993[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 12 clusters with 2 cameras[0m
+[34mThere are 41 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 201 clusters with 5 cameras[0m
+[34mThere are 98 clusters with 6 cameras[0m
+Number of classes: 454
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.06 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5186662, Mean Center Loss: 0.3694906, Mean Hard Triplet Loss: 0.2983513[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.21 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4683263, Mean Center Loss: 0.3191928, Mean Hard Triplet Loss: 0.2982670[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.89 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4858479, Mean Center Loss: 0.3279657, Mean Hard Triplet Loss: 0.3157643[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.26 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4642402, Mean Center Loss: 0.3022224, Mean Hard Triplet Loss: 0.3240355[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.32 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4947352, Mean Center Loss: 0.3421635, Mean Hard Triplet Loss: 0.3051434[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.49 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4745822, Mean Center Loss: 0.3336935, Mean Hard Triplet Loss: 0.2817774[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.13 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5107509, Mean Center Loss: 0.3465019, Mean Hard Triplet Loss: 0.3284978[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.78 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5790425, Mean Center Loss: 0.3864841, Mean Hard Triplet Loss: 0.3851168[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.53 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.6055686, Mean Center Loss: 0.4153294, Mean Hard Triplet Loss: 0.3804785[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.73 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5783911, Mean Center Loss: 0.4028866, Mean Hard Triplet Loss: 0.3510089[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.44 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5612365, Mean Center Loss: 0.3642049, Mean Hard Triplet Loss: 0.3940632[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.69 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5572420, Mean Center Loss: 0.3770684, Mean Hard Triplet Loss: 0.3603473[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 10.36 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5457611, Mean Center Loss: 0.3639628, Mean Hard Triplet Loss: 0.3635966[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5725554, Mean Center Loss: 0.3789711, Mean Hard Triplet Loss: 0.3871686[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.41 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4079591, Mean Center Loss: 0.2792342, Mean Hard Triplet Loss: 0.2574496[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.76 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4100813, Mean Center Loss: 0.2796006, Mean Hard Triplet Loss: 0.2609613[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.94 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4134033, Mean Center Loss: 0.2843662, Mean Hard Triplet Loss: 0.2580742[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.83 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4245506, Mean Center Loss: 0.2820568, Mean Hard Triplet Loss: 0.2849877[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.57 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4387902, Mean Center Loss: 0.2938550, Mean Hard Triplet Loss: 0.2898704[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.64 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4019193, Mean Center Loss: 0.2725641, Mean Hard Triplet Loss: 0.2587104[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.10 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4007553, Mean Center Loss: 0.2836691, Mean Hard Triplet Loss: 0.2341724[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 25/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.43 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.26 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.27 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.73294186592102
+Computing jaccard distance...
+Jaccard distance computing time cost: 12.997267484664917
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.684296131134033
+Reliability: 0.967
+[32mMean Purity: 0.41448[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 14 clusters with 2 cameras[0m
+[34mThere are 41 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 198 clusters with 5 cameras[0m
+[34mThere are 98 clusters with 6 cameras[0m
+Number of classes: 453
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.37 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5316970, Mean Center Loss: 0.3717855, Mean Hard Triplet Loss: 0.3198231[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.10 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4962345, Mean Center Loss: 0.3547021, Mean Hard Triplet Loss: 0.2830649[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 14.23 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5049672, Mean Center Loss: 0.3533516, Mean Hard Triplet Loss: 0.3032314[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.96 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4729920, Mean Center Loss: 0.3317343, Mean Hard Triplet Loss: 0.2825155[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.93 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4244174, Mean Center Loss: 0.2855568, Mean Hard Triplet Loss: 0.2777212[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.28 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4753396, Mean Center Loss: 0.3173185, Mean Hard Triplet Loss: 0.3160421[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.03 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5331487, Mean Center Loss: 0.3631930, Mean Hard Triplet Loss: 0.3399114[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.94 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5782582, Mean Center Loss: 0.3852938, Mean Hard Triplet Loss: 0.3859289[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.92 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5500221, Mean Center Loss: 0.3710046, Mean Hard Triplet Loss: 0.3580348[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.87 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5449140, Mean Center Loss: 0.3800591, Mean Hard Triplet Loss: 0.3297098[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 11.00 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5368130, Mean Center Loss: 0.3646326, Mean Hard Triplet Loss: 0.3443607[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.58 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4963512, Mean Center Loss: 0.3381550, Mean Hard Triplet Loss: 0.3163924[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.61 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5880268, Mean Center Loss: 0.3984752, Mean Hard Triplet Loss: 0.3791030[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.78 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5395302, Mean Center Loss: 0.3706703, Mean Hard Triplet Loss: 0.3377198[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.64 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4268557, Mean Center Loss: 0.2745660, Mean Hard Triplet Loss: 0.3045794[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.04 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4483482, Mean Center Loss: 0.3091441, Mean Hard Triplet Loss: 0.2784081[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.93 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.3836230, Mean Center Loss: 0.2673643, Mean Hard Triplet Loss: 0.2325174[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.85 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3864791, Mean Center Loss: 0.2706836, Mean Hard Triplet Loss: 0.2315910[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.56 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.3774150, Mean Center Loss: 0.2559144, Mean Hard Triplet Loss: 0.2430013[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.94 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4264667, Mean Center Loss: 0.2854436, Mean Hard Triplet Loss: 0.2820461[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.57 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3737218, Mean Center Loss: 0.2683307, Mean Hard Triplet Loss: 0.2107822[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+###============ Iteration number 26/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.70 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.21 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.01 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.542996644973755
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.237734079360962
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.213002681732178
+Reliability: 0.966
+[32mMean Purity: 0.41606[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 40 clusters with 3 cameras[0m
+[34mThere are 97 clusters with 4 cameras[0m
+[34mThere are 202 clusters with 5 cameras[0m
+[34mThere are 99 clusters with 6 cameras[0m
+Number of classes: 454
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.44 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4730940, Mean Center Loss: 0.3350481, Mean Hard Triplet Loss: 0.2760918[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.77 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4393638, Mean Center Loss: 0.3034046, Mean Hard Triplet Loss: 0.2719182[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.86 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4624219, Mean Center Loss: 0.3178904, Mean Hard Triplet Loss: 0.2890629[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.08 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4268795, Mean Center Loss: 0.2851614, Mean Hard Triplet Loss: 0.2834363[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.37 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4456042, Mean Center Loss: 0.2994502, Mean Hard Triplet Loss: 0.2923080[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.91 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4490146, Mean Center Loss: 0.3020460, Mean Hard Triplet Loss: 0.2939371[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.03 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4107075, Mean Center Loss: 0.2771512, Mean Hard Triplet Loss: 0.2671125[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.46 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5549902, Mean Center Loss: 0.3888520, Mean Hard Triplet Loss: 0.3322764[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.63 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5583283, Mean Center Loss: 0.3792158, Mean Hard Triplet Loss: 0.3582249[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.90 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.5306528, Mean Center Loss: 0.3674283, Mean Hard Triplet Loss: 0.3264491[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.48 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4853993, Mean Center Loss: 0.3384888, Mean Hard Triplet Loss: 0.2938211[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.74 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.5367342, Mean Center Loss: 0.3497999, Mean Hard Triplet Loss: 0.3738686[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.5247529, Mean Center Loss: 0.3733376, Mean Hard Triplet Loss: 0.3028306[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.61 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4817198, Mean Center Loss: 0.3400851, Mean Hard Triplet Loss: 0.2832693[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.34 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4193192, Mean Center Loss: 0.2781854, Mean Hard Triplet Loss: 0.2822677[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.65 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4348271, Mean Center Loss: 0.3013151, Mean Hard Triplet Loss: 0.2670241[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.76 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.3618816, Mean Center Loss: 0.2427567, Mean Hard Triplet Loss: 0.2382498[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.95 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3831855, Mean Center Loss: 0.2798031, Mean Hard Triplet Loss: 0.2067647[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.64 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4306544, Mean Center Loss: 0.2833333, Mean Hard Triplet Loss: 0.2946423[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.99 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4033867, Mean Center Loss: 0.2735237, Mean Hard Triplet Loss: 0.2597260[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.59 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4047476, Mean Center Loss: 0.2653874, Mean Hard Triplet Loss: 0.2787205[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 27/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.58 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.12 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.20 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.743627309799194
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.025493621826172
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.519306421279907
+Reliability: 0.966
+[32mMean Purity: 0.40579[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 42 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 200 clusters with 5 cameras[0m
+[34mThere are 100 clusters with 6 cameras[0m
+Number of classes: 457
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.16 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5292775, Mean Center Loss: 0.3582413, Mean Hard Triplet Loss: 0.3420725[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.77 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4796598, Mean Center Loss: 0.3327460, Mean Hard Triplet Loss: 0.2938276[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.76 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4704689, Mean Center Loss: 0.3229811, Mean Hard Triplet Loss: 0.2949755[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.95 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4926226, Mean Center Loss: 0.3155278, Mean Hard Triplet Loss: 0.3541897[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.32 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4861976, Mean Center Loss: 0.3256010, Mean Hard Triplet Loss: 0.3211932[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.41 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4484293, Mean Center Loss: 0.3156862, Mean Hard Triplet Loss: 0.2654863[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.39 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4222680, Mean Center Loss: 0.2982023, Mean Hard Triplet Loss: 0.2481314[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.79 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5373928, Mean Center Loss: 0.3548928, Mean Hard Triplet Loss: 0.3649999[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.96 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.5411559, Mean Center Loss: 0.3715419, Mean Hard Triplet Loss: 0.3392279[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.22 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4955479, Mean Center Loss: 0.3457734, Mean Hard Triplet Loss: 0.2995488[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.82 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4557680, Mean Center Loss: 0.3180272, Mean Hard Triplet Loss: 0.2754816[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.97 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4474189, Mean Center Loss: 0.3132198, Mean Hard Triplet Loss: 0.2683981[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.66 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4864468, Mean Center Loss: 0.3250371, Mean Hard Triplet Loss: 0.3228194[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.44 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4493009, Mean Center Loss: 0.3197073, Mean Hard Triplet Loss: 0.2591872[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.58 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4301905, Mean Center Loss: 0.2867295, Mean Hard Triplet Loss: 0.2869219[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.16 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4592675, Mean Center Loss: 0.3066612, Mean Hard Triplet Loss: 0.3052126[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.77 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4647539, Mean Center Loss: 0.3129499, Mean Hard Triplet Loss: 0.3036079[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.62 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3890809, Mean Center Loss: 0.2564245, Mean Hard Triplet Loss: 0.2653128[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.80 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.3339138, Mean Center Loss: 0.2403137, Mean Hard Triplet Loss: 0.1872004[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.61 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.3689555, Mean Center Loss: 0.2464314, Mean Hard Triplet Loss: 0.2450482[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.59 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3712221, Mean Center Loss: 0.2566278, Mean Hard Triplet Loss: 0.2291885[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 28/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.44 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.97 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.15 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.553701639175415
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.112807989120483
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.44691276550293
+Reliability: 0.967
+[32mMean Purity: 0.41268[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 42 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 204 clusters with 5 cameras[0m
+[34mThere are 100 clusters with 6 cameras[0m
+Number of classes: 461
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.33 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4271986, Mean Center Loss: 0.2946356, Mean Hard Triplet Loss: 0.2651261[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.27 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4469516, Mean Center Loss: 0.3038662, Mean Hard Triplet Loss: 0.2861707[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.29 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4001068, Mean Center Loss: 0.2833825, Mean Hard Triplet Loss: 0.2334487[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.29 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4299397, Mean Center Loss: 0.2826819, Mean Hard Triplet Loss: 0.2945156[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.26 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4928861, Mean Center Loss: 0.3420842, Mean Hard Triplet Loss: 0.3016039[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.85 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4243685, Mean Center Loss: 0.2839548, Mean Hard Triplet Loss: 0.2808275[0m
+[5m[34mPercetage of correct triplets: 0.77[0m
+Features extracted in 13.31 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.5071715, Mean Center Loss: 0.3489598, Mean Hard Triplet Loss: 0.3164233[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 11.13 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4623152, Mean Center Loss: 0.3154324, Mean Hard Triplet Loss: 0.2937657[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.60 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4751717, Mean Center Loss: 0.3283960, Mean Hard Triplet Loss: 0.2935514[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.00 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4792053, Mean Center Loss: 0.3279445, Mean Hard Triplet Loss: 0.3025217[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.65 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.5272600, Mean Center Loss: 0.3663692, Mean Hard Triplet Loss: 0.3217816[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.96 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4896907, Mean Center Loss: 0.3356335, Mean Hard Triplet Loss: 0.3081144[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.66 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4405940, Mean Center Loss: 0.3071681, Mean Hard Triplet Loss: 0.2668517[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+Features extracted in 10.88 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4851290, Mean Center Loss: 0.3423920, Mean Hard Triplet Loss: 0.2854740[0m
+[5m[34mPercetage of correct triplets: 0.73[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.95 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.3982007, Mean Center Loss: 0.2708971, Mean Hard Triplet Loss: 0.2546072[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.92 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.3380581, Mean Center Loss: 0.2340086, Mean Hard Triplet Loss: 0.2080989[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.71 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.3469100, Mean Center Loss: 0.2462257, Mean Hard Triplet Loss: 0.2013686[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.91 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3559086, Mean Center Loss: 0.2374276, Mean Hard Triplet Loss: 0.2369620[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.91 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.3630842, Mean Center Loss: 0.2444208, Mean Hard Triplet Loss: 0.2373268[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.05 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.3481157, Mean Center Loss: 0.2376475, Mean Hard Triplet Loss: 0.2209365[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 11.98 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4012288, Mean Center Loss: 0.2657369, Mean Hard Triplet Loss: 0.2709838[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 29/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.33 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 11.67 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.39 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.170674324035645
+Computing jaccard distance...
+Jaccard distance computing time cost: 13.228146314620972
+Computing jaccard distance...
+Jaccard distance computing time cost: 19.90199565887451
+Reliability: 0.967
+[32mMean Purity: 0.41092[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 42 clusters with 3 cameras[0m
+[34mThere are 99 clusters with 4 cameras[0m
+[34mThere are 203 clusters with 5 cameras[0m
+[34mThere are 99 clusters with 6 cameras[0m
+Number of classes: 459
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 13.07 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.5309975, Mean Center Loss: 0.3690042, Mean Hard Triplet Loss: 0.3239866[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.34 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4706397, Mean Center Loss: 0.3293546, Mean Hard Triplet Loss: 0.2825702[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.88 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4433150, Mean Center Loss: 0.3160738, Mean Hard Triplet Loss: 0.2544823[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 12.79 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4242888, Mean Center Loss: 0.2891568, Mean Hard Triplet Loss: 0.2702639[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.49 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4270295, Mean Center Loss: 0.2829397, Mean Hard Triplet Loss: 0.2881796[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.26 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4260114, Mean Center Loss: 0.3089143, Mean Hard Triplet Loss: 0.2341942[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 13.23 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4518154, Mean Center Loss: 0.2987004, Mean Hard Triplet Loss: 0.3062300[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.56 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4937276, Mean Center Loss: 0.3348957, Mean Hard Triplet Loss: 0.3176639[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.84 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4974886, Mean Center Loss: 0.3467122, Mean Hard Triplet Loss: 0.3015528[0m
+[5m[34mPercetage of correct triplets: 0.72[0m
+Features extracted in 10.71 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4233877, Mean Center Loss: 0.2993098, Mean Hard Triplet Loss: 0.2481557[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.87 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4938571, Mean Center Loss: 0.3391426, Mean Hard Triplet Loss: 0.3094289[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.48 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4582505, Mean Center Loss: 0.3096341, Mean Hard Triplet Loss: 0.2972327[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4656688, Mean Center Loss: 0.3191819, Mean Hard Triplet Loss: 0.2929738[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.69 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.4399805, Mean Center Loss: 0.2988714, Mean Hard Triplet Loss: 0.2822182[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 12.00 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.3702441, Mean Center Loss: 0.2599049, Mean Hard Triplet Loss: 0.2206784[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.20 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.3749435, Mean Center Loss: 0.2545623, Mean Hard Triplet Loss: 0.2407625[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.78 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.3801362, Mean Center Loss: 0.2684001, Mean Hard Triplet Loss: 0.2234722[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.55 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3539588, Mean Center Loss: 0.2495432, Mean Hard Triplet Loss: 0.2088311[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.97 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.3434568, Mean Center Loss: 0.2508110, Mean Hard Triplet Loss: 0.1852917[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.17 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.3257149, Mean Center Loss: 0.2241499, Mean Hard Triplet Loss: 0.2031301[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.80 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3066296, Mean Center Loss: 0.2009832, Mean Hard Triplet Loss: 0.2112928[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+###============ Iteration number 30/30 ============###
+Extracting Online Features for ResNet50 ...
+Features extracted in 13.59 seconds
+Extracting Online Features for OSNet ...
+Features extracted in 10.65 seconds
+Extracting Online Features for DenseNet121 ...
+Features extracted in 12.23 seconds
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.466588497161865
+Computing jaccard distance...
+Jaccard distance computing time cost: 15.096957445144653
+Computing jaccard distance...
+Jaccard distance computing time cost: 18.197073221206665
+Reliability: 0.969
+[32mMean Purity: 0.40655[0m
+[34mThere are 3 clusters with 1 cameras[0m
+[34mThere are 13 clusters with 2 cameras[0m
+[34mThere are 42 clusters with 3 cameras[0m
+[34mThere are 100 clusters with 4 cameras[0m
+[34mThere are 203 clusters with 5 cameras[0m
+[34mThere are 100 clusters with 6 cameras[0m
+Number of classes: 461
+[36mLearning Rate: 0.000350[0m
+[32mTraining ResNet50 ...[0m
+Features extracted in 12.97 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4812628, Mean Center Loss: 0.3240667, Mean Hard Triplet Loss: 0.3143923[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.01 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4996599, Mean Center Loss: 0.3315909, Mean Hard Triplet Loss: 0.3361379[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.27 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4098059, Mean Center Loss: 0.2832612, Mean Hard Triplet Loss: 0.2530895[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.39 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4655338, Mean Center Loss: 0.3137104, Mean Hard Triplet Loss: 0.3036468[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 13.37 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4868465, Mean Center Loss: 0.3308364, Mean Hard Triplet Loss: 0.3120202[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.43 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4476819, Mean Center Loss: 0.3095044, Mean Hard Triplet Loss: 0.2763550[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 13.10 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3990143, Mean Center Loss: 0.2762390, Mean Hard Triplet Loss: 0.2455507[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+[32mTraining OSNet ...[0m
+Features extracted in 10.73 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.4434045, Mean Center Loss: 0.3116209, Mean Hard Triplet Loss: 0.2635671[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.86 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.4568185, Mean Center Loss: 0.3139393, Mean Hard Triplet Loss: 0.2857584[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.62 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.4335751, Mean Center Loss: 0.2973265, Mean Hard Triplet Loss: 0.2724973[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.89 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.4203625, Mean Center Loss: 0.2878835, Mean Hard Triplet Loss: 0.2649579[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 10.91 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.4199482, Mean Center Loss: 0.2860229, Mean Hard Triplet Loss: 0.2678506[0m
+[5m[34mPercetage of correct triplets: 0.74[0m
+Features extracted in 11.02 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.4152269, Mean Center Loss: 0.2812810, Mean Hard Triplet Loss: 0.2678917[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 10.91 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3962602, Mean Center Loss: 0.2783550, Mean Hard Triplet Loss: 0.2358103[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[32mTraining DenseNet121 ...[0m
+Features extracted in 11.93 seconds
+[36mBatches computed: 28, Tau value: 0.040[0m
+[33mMean Loss: 0.3511529, Mean Center Loss: 0.2294993, Mean Hard Triplet Loss: 0.2433073[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.54 seconds
+[36mBatches computed: 56, Tau value: 0.040[0m
+[33mMean Loss: 0.3204964, Mean Center Loss: 0.2228966, Mean Hard Triplet Loss: 0.1951997[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.73 seconds
+[36mBatches computed: 84, Tau value: 0.040[0m
+[33mMean Loss: 0.3559691, Mean Center Loss: 0.2380871, Mean Hard Triplet Loss: 0.2357640[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 12.14 seconds
+[36mBatches computed: 112, Tau value: 0.040[0m
+[33mMean Loss: 0.3642745, Mean Center Loss: 0.2455971, Mean Hard Triplet Loss: 0.2373549[0m
+[5m[34mPercetage of correct triplets: 0.76[0m
+Features extracted in 12.12 seconds
+[36mBatches computed: 140, Tau value: 0.040[0m
+[33mMean Loss: 0.3289468, Mean Center Loss: 0.2124874, Mean Hard Triplet Loss: 0.2329187[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.78 seconds
+[36mBatches computed: 168, Tau value: 0.040[0m
+[33mMean Loss: 0.3257582, Mean Center Loss: 0.2276954, Mean Hard Triplet Loss: 0.1961257[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+Features extracted in 11.86 seconds
+[36mBatches computed: 196, Tau value: 0.040[0m
+[33mMean Loss: 0.3464689, Mean Center Loss: 0.2342715, Mean Hard Triplet Loss: 0.2243949[0m
+[5m[34mPercetage of correct triplets: 0.75[0m
+[33mValidating online ResNet50 ...[0m
+Features extracted in 6.25 seconds
+Features extracted in 16.03 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 73.80%
+CMC curve
+Rank-1  : 88.54%
+Rank-5  : 95.07%
+Rank-10 : 96.88%
+Rank-20 : 98.01%
+[33mValidating momentum ResNet50 ...[0m
+Features extracted in 6.09 seconds
+Features extracted in 15.88 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 80.40%
+CMC curve
+Rank-1  : 91.09%
+Rank-5  : 96.76%
+Rank-10 : 97.98%
+Rank-20 : 98.72%
+[33mValidating online OSNet ...[0m
+Features extracted in 5.12 seconds
+Features extracted in 12.55 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 75.66%
+CMC curve
+Rank-1  : 88.98%
+Rank-5  : 95.78%
+Rank-10 : 97.12%
+Rank-20 : 98.07%
+[33mValidating momentum OSNet ...[0m
+Features extracted in 5.47 seconds
+Features extracted in 12.66 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 78.56%
+CMC curve
+Rank-1  : 90.50%
+Rank-5  : 96.11%
+Rank-10 : 97.21%
+Rank-20 : 98.10%
+[33mValidating online DenseNet121 ...[0m
+Features extracted in 5.49 seconds
+Features extracted in 14.30 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 71.79%
+CMC curve
+Rank-1  : 87.65%
+Rank-5  : 94.80%
+Rank-10 : 96.59%
+Rank-20 : 97.77%
+[33mValidating momentum DenseNet121 ...[0m
+Features extracted in 5.56 seconds
+Features extracted in 13.76 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 78.92%
+CMC curve
+Rank-1  : 90.26%
+Rank-5  : 95.87%
+Rank-10 : 97.39%
+Rank-20 : 98.25%
+[33mValidating ensembled with online models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 80.84%
+Ranks:
+Rank-1  : 91.18%
+Rank-5  : 96.70%
+Rank-10 : 97.62%
+[33mValidating ensembled with momentum models ...[0m
+Computing CMC and mAP ...
+** Results **
+mAP: 83.36%
+Ranks:
+Rank-1  : 92.93%
+Rank-5  : 97.06%
+Rank-10 : 97.83%
+2681.902857065201 203.81506538391113 19676.42803454399
+Mean Feature Extraction and Reranking Time: 89.396762
+Mean Clustering Time: 6.793836
+Mean Finetuning Time: 655.880934
+Total pipeline Time:  23157.361842
